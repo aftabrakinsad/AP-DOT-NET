@@ -26,5 +26,12 @@ namespace MT_LABTASK_1_PORTFOLIO.Controllers
 
             return View();
         }
+
+        public ActionResult Education()
+        {
+            ViewBag.Message = "Education";
+
+            return View();
+        }
     }
 }

@@ -63,3 +63,8 @@ input[type=text], input[type=password], input[type=email] {
 .inputbutton:hover {
     opacity: 0.8;
 }
+
+.footer
+{
+    color: white;
+}
