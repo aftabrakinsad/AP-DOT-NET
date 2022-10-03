@@ -14,14 +14,7 @@ form {
     width: 450px;
     padding: 30px 70px;
     margin-top: 200px;
-    animation: move 2s infinite;
     border-radius: 20px;
-}
-
-@keyframes move {
-    50% {
-        box-shadow: 10px 20px 30px green
-    }
 }
 
 .h2 {
