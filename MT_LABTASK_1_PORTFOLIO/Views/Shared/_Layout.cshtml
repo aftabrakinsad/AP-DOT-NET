@@ -6,7 +6,7 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-    <link rel="stylesheet" type="text/CSS" href="~/Content/Contact.css">
+    <!--<link rel="stylesheet" type="text/CSS" href="~/Content/Contact.css">-->
 </head>
 <body class="bodyimage">
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -25,6 +25,7 @@
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Education", "Education", "Home")</li>
+                    <li>@Html.ActionLink("Projects", "Projects", "Home")</li>
                 </ul>
             </div>
         </div>
@@ -33,7 +34,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p class="footer">&copy; @DateTime.Now.Year - rakinsadaftab</p>
+            <p>&copy; @DateTime.Now.Year - rakinsadaftab</p>
         </footer>
     </div>
 
