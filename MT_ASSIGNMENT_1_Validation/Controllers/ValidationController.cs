@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MT_ASSIGNMENT_1_Validation.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -9,9 +10,13 @@ namespace MT_ASSIGNMENT_1_Validation.Controllers
     public class ValidationController : Controller
     {
         // GET: Validation
-        public ActionResult Validationf1()
+        public ActionResult Validationf1(Validation valid)
         {
-            return View();
+            if(ModelState.IsValid)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            return View(valid);
         }
     }
 }
