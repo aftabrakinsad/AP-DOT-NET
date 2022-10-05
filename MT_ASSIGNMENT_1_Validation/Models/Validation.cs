@@ -11,6 +11,7 @@ namespace MT_ASSIGNMENT_1_Validation.Models
         [Display(Name = "Full Name")]
         [Required(ErrorMessage = "Don't Have any name?")]
         [StringLength(50, MinimumLength = 3, ErrorMessage = "Name should contain 3 to 50 characters")]
+        [RegularExpression(@"^[a-zA-Z-_\s\W]+$")]
         public string fullname { get; set; }
 
         [Display(Name = "AIUB ID")]
