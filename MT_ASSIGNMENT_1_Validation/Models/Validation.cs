@@ -18,7 +18,7 @@ namespace MT_ASSIGNMENT_1_Validation.Models
         [Required(ErrorMessage = "He or She?")]
         
         public string gender { get; set; }
-        [Required(ErrorMessage =".edu mail is required.")]
+        [Required(ErrorMessage ="xx-xxxxx-x@student.aiub.edu mail is required.")]
         
         public string aiubmail { get; set; }
         [Required(ErrorMessage ="We can't let you in without password.")]
