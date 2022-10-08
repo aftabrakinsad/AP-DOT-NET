@@ -26,7 +26,6 @@ namespace MT_ASSIGNMENT_1_Validation.Models
         [Display(Name = "AIUB Mail")]
         [Required(ErrorMessage ="xx-xxxxx-x@student.aiub.edu mail is required.")]
         [RegularExpression("^[1-9][0-9]-[0-9][0-9][0-9][0-9][0-9]-[1-3]@student.aiub.edu+", ErrorMessage ="Aiub er deya mail dao vaya")]
-        [Compare("aiubid")]
         public string aiubmail { get; set; }
 
         [Display(Name = "Password")]
