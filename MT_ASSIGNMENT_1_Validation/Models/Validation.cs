@@ -16,7 +16,7 @@ namespace MT_ASSIGNMENT_1_Validation.Models
 
         [Display(Name = "AIUB ID")]
         [Required(ErrorMessage = "No ID, No Entry!")]
-        [RegularExpression("^[1-9][0-9]-[0-9][0-9][0-9][0-9][0-9]-[1-3]+", ErrorMessage ="ki vhai? AIUB ID dao")]
+        [RegularExpression("^[1-9][0-9]-[0-9][0-9][0-9][0-9][0-9]-[1-3]+", ErrorMessage = "ki vhai? AIUB ID dao")]
         public string aiubid { get; set; }
 
         [Display(Name = "Gender")]
@@ -26,6 +26,7 @@ namespace MT_ASSIGNMENT_1_Validation.Models
         [Display(Name = "AIUB Mail")]
         [Required(ErrorMessage ="xx-xxxxx-x@student.aiub.edu mail is required.")]
         [RegularExpression("^[1-9][0-9]-[0-9][0-9][0-9][0-9][0-9]-[1-3]@student.aiub.edu+", ErrorMessage ="Aiub er deya mail dao vaya")]
+        
         public string aiubmail { get; set; }
 
         [Display(Name = "Password")]
