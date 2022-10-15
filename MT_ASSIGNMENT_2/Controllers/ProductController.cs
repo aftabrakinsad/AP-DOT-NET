@@ -1,4 +1,5 @@
 ﻿using MT_ASSIGNMENT_2.Database;
+using MT_ASSIGNMENT_2.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,13 +24,16 @@ namespace MT_ASSIGNMENT_2.Controllers
         }
 
         [HttpPost]
-        public ActionResult Products(Product ppt)
+        public ActionResult Products(Validation valid, Product ppt)
         {
-            //add to db
-            var database = new MID_ASSIGNMENT_TWOEntities();
-            database.Products.Add(ppt);
-            database.SaveChanges();
-            return RedirectToAction("Products");
+            if (ModelState.IsValid)
+            {
+                var database = new MID_ASSIGNMENT_TWOEntities();
+                database.Products.Add(ppt);
+                database.SaveChanges();
+                return RedirectToAction("Products");
+            }
+            return View(valid);
         }
 
         [HttpGet]
