@@ -29,7 +29,7 @@ namespace MT_ASSIGNMENT_2.Controllers
             var database = new MID_ASSIGNMENT_TWOEntities();
             database.Products.Add(ppt);
             database.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("Products");
         }
 
         [HttpGet]
