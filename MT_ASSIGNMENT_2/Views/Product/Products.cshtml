@@ -9,15 +9,32 @@
             <img src="~/Image/bike.jpg" alt="bike" style="width:100%">
             <div class="container">
                 <input type="hidden" name="ID" />
-                <input type="text" class="form-control" name="Name" placeholder="Bike name" value="@(Model == null ? "" : Model.Name)" />
+                <input type="text" class="form-control" name="Name" value="Royal Enfield" readonly />
                 <p class="text-danger">@Html.ValidationMessage("Name")</p>
-                
-                <input type="number" class="form-control" name="Price" placeholder="Price" value="@(Model == null ? "" : Model.Price)" />
+
+                <input type="number" class="form-control" name="Price" placeholder="Price" value="10000000" readonly />
                 <p class="text-danger">@Html.ValidationMessage("Price")</p>
-                
+
                 <input type="number" class="form-control" name="Qty" placeholder="1" value="@(Model == null ? "" : Model.Qty)" />
                 <p class="text-danger">@Html.ValidationMessage("Qty")</p>
-                
+
+                <input type="submit" class="form-control alert-success" name="submit" value="Add to cart" />
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="~/Image/bike.jpg" alt="bike" style="width:100%">
+            <div class="container">
+                <input type="hidden" name="ID" />
+                <input type="text" class="form-control" name="Name" value="Royal Enfield" readonly />
+                <p class="text-danger">@Html.ValidationMessage("Name")</p>
+
+                <input type="number" class="form-control" name="Price" placeholder="Price" value="10000000" readonly />
+                <p class="text-danger">@Html.ValidationMessage("Price")</p>
+
+                <input type="number" class="form-control" name="Qty" placeholder="1" value="@(Model == null ? "" : Model.Qty)" />
+                <p class="text-danger">@Html.ValidationMessage("Qty")</p>
+
                 <input type="submit" class="form-control alert-success" name="submit" value="Add to cart" />
             </div>
         </div>

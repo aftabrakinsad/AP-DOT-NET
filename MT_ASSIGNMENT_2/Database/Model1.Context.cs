@@ -26,5 +26,7 @@ namespace MT_ASSIGNMENT_2.Database
         }
     
         public DbSet<Product> Products { get; set; }
+        public DbSet<checkoutlist> checkoutlists { get; set; }
+        public DbSet<sysdiagram> sysdiagrams { get; set; }
     }
 }
