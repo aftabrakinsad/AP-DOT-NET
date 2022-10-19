@@ -10,13 +10,13 @@
 namespace MT_ASSIGNMENT_2.Database
 {
     using System;
-    using System.Collections.Generic;
     
-    public partial class checkoutlist
+    public partial class sp_helpdiagrams_Result
     {
-        public int ID { get; set; }
+        public string Database { get; set; }
         public string Name { get; set; }
-        public int Qty { get; set; }
-        public int Total_Cost { get; set; }
+        public int ID { get; set; }
+        public string Owner { get; set; }
+        public int OwnerID { get; set; }
     }
 }

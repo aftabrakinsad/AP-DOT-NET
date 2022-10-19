@@ -6,8 +6,6 @@
     <edmx:Diagrams>
       <Diagram DiagramId="4ea4c2b906364749b68193ee70cd7f0c" Name="Diagram1">
         <EntityTypeShape EntityType="MID_ASSIGNMENT_TWOModel.Product" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="MID_ASSIGNMENT_TWOModel.checkoutlist" Width="1.5" PointX="3.75" PointY="0.75" />
-        <EntityTypeShape EntityType="MID_ASSIGNMENT_TWOModel.sysdiagram" Width="1.5" PointX="0.75" PointY="3.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

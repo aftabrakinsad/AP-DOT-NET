@@ -24,23 +24,17 @@ namespace MT_ASSIGNMENT_2.Controllers
         }
 
         [HttpPost]
-        public ActionResult Products(Product ppt)
-        {
-            var database = new MID_ASSIGNMENT_TWOEntities();
-            database.Products.Add(ppt);
-            database.SaveChanges();
-            return RedirectToAction("Products");
-        }
-
-        /*[HttpPost]
-        public ActionResult Products(Validation valid)
+        public ActionResult Products(Validation valid, Product ppt)
         {
             if (ModelState.IsValid)
             {
-                return RedirectToAction("Edit", "Product");
+                var database = new MID_ASSIGNMENT_TWOEntities();
+                database.Products.Add(ppt);
+                database.SaveChanges();
+                return RedirectToAction("Products");
             }
             return View(valid);
-        }*/
+        }
 
         [HttpGet]
         public ActionResult Edit(int ID)
