@@ -83,5 +83,26 @@ namespace MT_ASSIGNMENT_2.Controllers
                 return RedirectToAction("Index");
             }
         }
+
+        [HttpGet]
+        public ActionResult Checkout()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Checkout(Product p)
+        {
+            var database = new MID_ASSIGNMENT_TWOEntities();
+            var ext = (from pt in database.Products
+                       where pt.ID == p.ID
+                       select pt).SingleOrDefault();
+            ext.Name = p.Name;
+            ext.Price = p.Price;
+            ext.Qty = p.Qty;
+            database.SaveChanges();
+            return RedirectToAction("Index");
+
+        }
     }
 }
