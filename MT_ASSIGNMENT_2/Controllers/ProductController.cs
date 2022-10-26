@@ -104,5 +104,23 @@ namespace MT_ASSIGNMENT_2.Controllers
             return RedirectToAction("Index");
 
         }
+
+        public ActionResult ProductList()
+        {
+            List<Product> Products = new List<Product>();
+            for (int i = 1; i <= 10; i++)
+            {
+                var p1 = new Product()
+                {
+                    ID = i,
+                    Name = "Product " + i,
+                    Price = 250,
+                    Qty = 1
+                };
+                Products.Add(p1);
+            }
+            return View(Products);
+        }
+    }
     }
 }

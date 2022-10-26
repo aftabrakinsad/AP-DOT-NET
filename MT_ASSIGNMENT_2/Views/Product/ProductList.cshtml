@@ -1,0 +1,21 @@
+﻿@model List<MT_ASSIGNMENT_2.Models.ProductList>
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.Name</td>
+            <td>@item.Name</td>
+        </tr>
+    }
+</table>>
