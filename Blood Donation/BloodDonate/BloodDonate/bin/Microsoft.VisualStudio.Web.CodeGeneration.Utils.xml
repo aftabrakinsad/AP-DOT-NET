@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.VisualStudio.Web.CodeGeneration.Utils</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Messaging.MessageStrings">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Messaging.MessageStrings.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Messaging.MessageStrings.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Messaging.MessageStrings.AddDirectoryMessage">
+            <summary>
+              Looks up a localized string similar to Add directory: &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Messaging.MessageStrings.AddFileMessage">
+            <summary>
+              Looks up a localized string similar to Add File: &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Messaging.MessageStrings.ContentsMessage">
+            <summary>
+              Looks up a localized string similar to Contents: {0}.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Messaging.MessageStrings.DeleteFileMessage">
+            <summary>
+              Looks up a localized string similar to Deleted file: &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Messaging.MessageStrings.EditFileMessage">
+            <summary>
+              Looks up a localized string similar to Edit File: &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Messaging.MessageStrings.EndFileSystemChangeToken">
+            <summary>
+              Looks up a localized string similar to :::End FileSystemChange:::.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Messaging.MessageStrings.InvalidFileSystemChangeMessage">
+            <summary>
+              Looks up a localized string similar to Invalid FileSystemChange message..
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Messaging.MessageStrings.InvalidProjectInformationMessage">
+            <summary>
+              Looks up a localized string similar to ProjectInformation Response received is not valid..
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Messaging.MessageStrings.ProtocolVersionMismatch">
+            <summary>
+              Looks up a localized string similar to The protocol version &apos;{0}&apos; of the message is different than currently handled version &apos;{1}&apos;..
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Messaging.MessageStrings.RemoveDirectoryMessage">
+            <summary>
+              Looks up a localized string similar to Deleted directory: &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Messaging.MessageStrings.StartFileSystemChangeToken">
+            <summary>
+              Looks up a localized string similar to :::Start FileSystemChange:::.
+            </summary>
+        </member>
+        <member name="T:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Resource">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Resource.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Resource.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Resource.NullParamError">
+            <summary>
+              Looks up a localized string similar to Parameter &apos;{0}&apos; cannot be null or empty..
+            </summary>
+        </member>
+        <member name="P:Microsoft.VisualStudio.Web.CodeGeneration.Utils.Resource.UnexpectedTypeLibraryForTemplates">
+            <summary>
+              Looks up a localized string similar to Unexpected type of library information for template folders.
+            </summary>
+        </member>
+    </members>
+</doc>
