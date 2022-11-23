@@ -19,7 +19,7 @@ namespace BloodDonate.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
-        [Route("api/donors/{name}")]
+        [Route("api/donors/{id}")]
         [HttpGet]
         public HttpResponseMessage Get(int id)
         {
@@ -35,6 +35,18 @@ namespace BloodDonate.Controllers
             if(data != null)
             {
                 return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            return Request.CreateResponse(HttpStatusCode.InternalServerError);
+        }
+
+        [Route("api/donors/delete/{id}")]
+        [HttpDelete]
+        public HttpResponseMessage Delete(int id)
+        {
+            var resp = DonorService.Delete(id);
+            if (resp)
+            {
+                return Request.CreateResponse(HttpStatusCode.OK, new { msg = "Deleted", data = id });
             }
             return Request.CreateResponse(HttpStatusCode.InternalServerError);
         }

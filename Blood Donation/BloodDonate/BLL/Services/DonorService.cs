@@ -12,7 +12,7 @@ namespace BLL.Services
 {
     public class DonorService
     {
-        public static List<DonorDTO>Get()
+        public static List<DonorDTO> Get()
         {
             var db = DataAccessFactory.DonorDataAccess().Get();
             var config = new MapperConfiguration(cfg => cfg.CreateMap<Donor, DonorDTO>());
@@ -32,7 +32,8 @@ namespace BLL.Services
 
         public static DonorDTO Add(DonorDTO add)
         {
-            var config = new MapperConfiguration(cfg => {
+            var config = new MapperConfiguration(cfg =>
+            {
                 cfg.CreateMap<Donor, DonorDTO>();
                 cfg.CreateMap<DonorDTO, Donor>();
             });
@@ -41,6 +42,12 @@ namespace BLL.Services
             var result = DataAccessFactory.DonorDataAccess().Add(data);
             var redata = mapper.Map<DonorDTO>(add);
             return redata;
+        }
+
+        public static bool Delete(int id)
+        {
+            var result = DataAccessFactory.DonorDataAccess().Delete(id);
+            return result;
         }
     }
 }

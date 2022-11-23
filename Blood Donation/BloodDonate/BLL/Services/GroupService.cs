@@ -35,7 +35,7 @@ namespace BLL.Services
         {
             var config = new MapperConfiguration(cfg => {
                 cfg.CreateMap<GroupDTO, Group>();
-                cfg.CreateMap<GroupDTO, Group>();
+                cfg.CreateMap<Group, GroupDTO>();
             });
             var mapper = new Mapper(config);
             var group = mapper.Map<Group>(add);
@@ -47,13 +47,18 @@ namespace BLL.Services
         {
             var config = new MapperConfiguration(cfg => {
                 cfg.CreateMap<GroupDTO, Group>();
-                cfg.CreateMap<GroupDTO, Group>();
+                cfg.CreateMap<Group, GroupDTO>();
             });
             var mapper = new Mapper(config);
             var group = mapper.Map<Group>(update);
-            var result = DataAccessFactory.GroupDataAccess().Add(group);
+            var result = DataAccessFactory.GroupDataAccess().Update(group);
             return result;
         }
 
+        public static bool Delete(int id)
+        {
+            var result = DataAccessFactory.GroupDataAccess().Delete(id);
+            return result;
+        }
     }
 }

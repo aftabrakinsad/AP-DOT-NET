@@ -38,5 +38,29 @@ namespace BloodDonate.Controllers
             }
             return Request.CreateResponse(HttpStatusCode.InternalServerError);
         }
+
+        [Route("api/groups/update/{id}")]
+        [HttpPost]
+        public HttpResponseMessage Up(GroupDTO group)
+        {
+            var resp = GroupService.Update(group);
+            if(resp)
+            {
+                return Request.CreateResponse(HttpStatusCode.OK, new { msg = "Updated", data = group });
+            }
+            return Request.CreateResponse(HttpStatusCode.InternalServerError);
+        }
+
+        [Route("api/groups/delete/{id}")]
+        [HttpDelete]
+        public HttpResponseMessage Delete(int id)
+        {
+            var resp = GroupService.Delete(id);
+            if(resp)
+            {
+                return Request.CreateResponse(HttpStatusCode.OK, new { msg = "Deleted", data = id });
+            }
+            return Request.CreateResponse(HttpStatusCode.InternalServerError);
+        }
     }
 }

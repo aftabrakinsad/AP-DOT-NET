@@ -15,9 +15,17 @@ namespace DAL.Repo
         {
             db = new BloodDonateEntities();
         }
+
         public bool Add(Group add)
         {
             db.Groups.Add(add);
+            return db.SaveChanges() > 0;
+        }
+
+        public bool Update(Group update)
+        {
+            var ext = Get(update.Id);
+            db.Entry(ext).CurrentValues.SetValues(update);
             return db.SaveChanges() > 0;
         }
 
@@ -36,13 +44,6 @@ namespace DAL.Repo
         public Group Get(int id)
         {
             return db.Groups.Find(id);
-        }
-
-        public bool Update(Group update)
-        {
-            var ext = Get(update.Id);
-            db.Entry(ext).CurrentValues.SetValues(update);
-            return db.SaveChanges() > 0;
         }
     }
 }
