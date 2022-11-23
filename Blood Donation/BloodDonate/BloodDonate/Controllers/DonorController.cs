@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BLL.DTOs;
+using BLL.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -9,31 +11,32 @@ namespace BloodDonate.Controllers
 {
     public class DonorController : ApiController
     {
-        // GET api/<controller>
-        public IEnumerable<string> Get()
+        [Route("api/donors")]
+        [HttpGet]
+        public HttpResponseMessage Get()
         {
-            return new string[] { "value1", "value2" };
+            var data = DonorService.Get();
+            return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
-        // GET api/<controller>/5
-        public string Get(int id)
+        [Route("api/donors/{name}")]
+        [HttpGet]
+        public HttpResponseMessage Get(int id)
         {
-            return "value";
+            var data = DonorService.Get(id);
+            return Request.CreateResponse(HttpStatusCode.OK, data);
         }
 
-        // POST api/<controller>
-        public void Post([FromBody] string value)
+        [Route("api/donors/add")]
+        [HttpPost]
+        public HttpResponseMessage Add(DonorDTO donor)
         {
-        }
-
-        // PUT api/<controller>/5
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<controller>/5
-        public void Delete(int id)
-        {
+            var data = DonorService.Add(donor);
+            if(data != null)
+            {
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            return Request.CreateResponse(HttpStatusCode.InternalServerError);
         }
     }
 }
