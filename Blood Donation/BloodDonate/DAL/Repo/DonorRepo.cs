@@ -29,6 +29,13 @@ namespace DAL.Repo
             return db.SaveChanges() > 0;
         }
 
+        public bool Update(Donor update)
+        {
+            var resu = Get(update.Id);
+            db.Entry(resu).CurrentValues.SetValues(update);
+            return db.SaveChanges() > 0;
+        }
+
         public List<Donor> Get()
         {
             return db.Donors.ToList();
@@ -37,13 +44,6 @@ namespace DAL.Repo
         public Donor Get(int id)
         {
             return db.Donors.Find(id);
-        }
-
-        public bool Update(Donor update)
-        {
-            var ext = db.Donors.Find(update.Id);
-            db.Entry(ext).CurrentValues.SetValues(update);
-            return db.SaveChanges() > 0;
         }
     }
 }

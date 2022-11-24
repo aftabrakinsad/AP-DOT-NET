@@ -44,6 +44,18 @@ namespace BLL.Services
             return redata;
         }
 
+        public static bool Update(DonorDTO update)
+        {
+            var config = new MapperConfiguration(cfg => {
+                cfg.CreateMap<DonorDTO, Donor>();
+                cfg.CreateMap<Donor, DonorDTO>();
+            });
+            var mapper = new Mapper(config);
+            var donor = mapper.Map<Donor>(update);
+            var result = DataAccessFactory.DonorDataAccess().Update(donor);
+            return result;
+        }
+
         public static bool Delete(int id)
         {
             var result = DataAccessFactory.DonorDataAccess().Delete(id);

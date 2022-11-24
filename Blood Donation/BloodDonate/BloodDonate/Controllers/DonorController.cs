@@ -39,6 +39,18 @@ namespace BloodDonate.Controllers
             return Request.CreateResponse(HttpStatusCode.InternalServerError);
         }
 
+        [Route("api/donors/update/{id}")]
+        [HttpPost]
+        public HttpResponseMessage Upda(DonorDTO don)
+        {
+            var resp = DonorService.Update(don);
+            if (resp)
+            {
+                return Request.CreateResponse(HttpStatusCode.OK, new { msg = "Updated", data = don });
+            }
+            return Request.CreateResponse(HttpStatusCode.InternalServerError);
+        }
+
         [Route("api/donors/delete/{id}")]
         [HttpDelete]
         public HttpResponseMessage Delete(int id)
