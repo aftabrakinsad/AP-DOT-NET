@@ -22,24 +22,28 @@ namespace DAL.Repo
             return add;
         }
 
-        public bool Delete(string id)
+        public bool Update(User update)
         {
-            throw new NotImplementedException();
+            var ext = Get(update.Username);
+            db.Entry(ext).CurrentValues.SetValues(update);
+            return db.SaveChanges() > 0;
+        }
+
+        public bool Delete(string uname)
+        {
+            var delete = db.Users.Find(uname);
+            db.Users.Remove(delete);
+            return db.SaveChanges() > 0;
         }
 
         public List<User> Get()
         {
-            throw new NotImplementedException();
+            return db.Users.ToList();
         }
 
-        public User Get(string id)
+        public User Get(string uname)
         {
-            throw new NotImplementedException();
-        }
-
-        public bool Update(User update)
-        {
-            throw new NotImplementedException();
+            return db.Users.Find(uname);
         }
 
         public User Authenticate(string uname, string pass)

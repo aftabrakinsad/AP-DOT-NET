@@ -18,8 +18,7 @@ namespace BLL.Services
             var config = new MapperConfiguration(cfg => cfg.CreateMap<Group, GroupDTO>());
             var mapper = new Mapper(config);
             var groups = mapper.Map<List<GroupDTO>>(data);
-            return groups;
-            
+            return groups; 
         }
 
         public static GroupDTO Get(int id)
