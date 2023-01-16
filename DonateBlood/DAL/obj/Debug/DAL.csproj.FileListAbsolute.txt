@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\bin\Debug\DAL.dll.config
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\bin\Debug\DAL.dll
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\bin\Debug\DAL.pdb
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\bin\Debug\AutoMapper.dll
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\bin\Debug\EntityFramework.dll
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\bin\Debug\AutoMapper.xml
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\bin\Debug\EntityFramework.xml
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.dll
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.pdb
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.Migrations.All_Tables_insertion.resources
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
