@@ -69,17 +69,5 @@ namespace BLL.Services
             var mapper = new Mapper(config);
             return mapper.Map<GroupDTO>(data);
         }
-
-        public static DonorGroupDTO Get_with_Donor(int id)
-        {
-            var data = DataAccessFactory.GroupDataAccess().Get(id);
-            var cfg = new MapperConfiguration(c => {
-                c.CreateMap<Group, DonorGroupDTO>();
-                c.CreateMap<Donor, DonorDTO>();
-
-            });
-            var mapper = new Mapper(cfg);
-            return mapper.Map<DonorGroupDTO>(data);
-        }
     }
 }

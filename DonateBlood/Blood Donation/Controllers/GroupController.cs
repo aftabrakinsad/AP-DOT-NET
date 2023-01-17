@@ -16,7 +16,7 @@ namespace Blood_Donation.Controllers
     public class GroupController : ApiController
     {
         [HttpPost]
-        [Route("api/group/add")]
+        [Route("api/group/add")] //Addition of New Blood Group Data
         public HttpResponseMessage Add_Group(GroupDTO p)
         {
             try
@@ -35,7 +35,7 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpGet]
-        [Route("api/group/list")]
+        [Route("api/group/list")] //Blood Group List
         public HttpResponseMessage Get_All_Group()
         {
             try
@@ -50,7 +50,7 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpGet]
-        [Route("api/group/{id}")]
+        [Route("api/group/{id}")] //Search Blood Group by ID
         public HttpResponseMessage Get_Single_Group(int id)
         {
             try
@@ -65,7 +65,7 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpDelete]
-        [Route("api/group/delete/{id}")]
+        [Route("api/group/delete/{id}")] //Delect Blood Group by ID
         public HttpResponseMessage DeleteGroup(int id)
         {
             try
@@ -80,8 +80,8 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpPost]
-        [Route("api/group/update")]
-        public HttpResponseMessage UpdatePolice(GroupDTO groupDTO)
+        [Route("api/group/update")] //Update Blood Group
+        public HttpResponseMessage Update_Group(GroupDTO groupDTO)
         {
             try
             {
@@ -95,7 +95,7 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpGet]
-        [Route("api/groups/{name}")]
+        [Route("api/groupby/{name}")] //Search Blood Group By Name
         public HttpResponseMessage Get_Single_Group_By_gname(string name)
         {
             try
@@ -109,27 +109,8 @@ namespace Blood_Donation.Controllers
             }
         }
 
-        [HttpPost]
-        [Route("api/group/donor/Add")]
-        public HttpResponseMessage ADD(DonorDTO c)
-        {
-            try
-            {
-                if (ModelState.IsValid)
-                {
-                    var data = DonorService.Add(c);
-                    return Request.CreateResponse(HttpStatusCode.OK, data);
-                }
-                return Request.CreateResponse(HttpStatusCode.NoContent);
-            }
-            catch (Exception ex)
-            {
-                return Request.CreateResponse(HttpStatusCode.BadRequest, ex);
-            }
-        }
-
         [HttpGet]
-        [Route("api/group/donorlist")]
+        [Route("api/group/donorlist")] //View Donorlist With Blood Group
         public HttpResponseMessage Get_All_Donor()
         {
             try
@@ -140,65 +121,6 @@ namespace Blood_Donation.Controllers
             catch (Exception ex)
             {
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
-            }
-        }
-
-        [HttpGet]
-        [Route("api/donors/{id}")]
-        public HttpResponseMessage Get_Single_Donor(int id)
-        {
-            try
-            {
-                var data = DonorService.Get(id);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
-            }
-            catch (Exception ex)
-            {
-                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
-            }
-        }
-
-        [HttpPost]
-        [Route("api/donors/remove/{id}")]
-        public HttpResponseMessage Delete_Donor(int id)
-        {
-            try
-            {
-                var data = DonorService.Delete(id);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
-            }
-            catch (Exception ex)
-            {
-                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
-            }
-        }
-
-        [HttpPost]
-        [Route("api/donors/update")]
-        public HttpResponseMessage UpdateCase(DonorDTO donorDTO)
-        {
-            try
-            {
-                var data = DonorService.Update(donorDTO);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
-            }
-            catch (Exception ex)
-            {
-                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
-            }
-        }
-
-        [HttpGet]
-        [Route("api/donors/{id}/group")]
-        public HttpResponseMessage Get_with_Donor(int id)
-        {
-            try
-            {
-                return Request.CreateResponse(HttpStatusCode.OK, GroupService.Get_with_Donor(id));
-            }
-            catch (Exception ex)
-            {
-                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex.Message);
             }
         }
     }

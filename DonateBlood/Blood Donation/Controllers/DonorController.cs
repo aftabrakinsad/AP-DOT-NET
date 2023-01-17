@@ -16,7 +16,7 @@ namespace Blood_Donation.Controllers
     public class DonorController : ApiController
     {
         [HttpPost]
-        [Route("api/donor/add")]
+        [Route("api/donor/add")] //Add a Donor
         public HttpResponseMessage Register(DonorDTO p)
         {
             try
@@ -35,7 +35,7 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpGet]
-        [Route("api/donors")]
+        [Route("api/donor/list")] //View Donor List
         public HttpResponseMessage Get()
         {
             try
@@ -50,7 +50,7 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpGet]
-        [Route("api/donor/{id}")]
+        [Route("api/donor/{id}")] //Search Donor By ID
         public HttpResponseMessage Get_Single_Donor(int id)
         {
             try
@@ -65,7 +65,7 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpDelete]
-        [Route("api/donor/delete/{id}")]
+        [Route("api/donor/delete/{id}")] //Delete Donor By ID
         public HttpResponseMessage Delete_Donor(int id)
         {
             try
@@ -80,7 +80,7 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpPost]
-        [Route("api/donor/update")]
+        [Route("api/donor/update")] //Update Donor
         public HttpResponseMessage Update_Donor(DonorDTO donorDTO)
         {
             try
@@ -95,7 +95,7 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpGet]
-        [Route("api/donorss/{name}")]
+        [Route("api/donorby/{name}")] //Search Donor By Name
         public HttpResponseMessage Get_Single_donor_By_name(string name)
         {
             try
