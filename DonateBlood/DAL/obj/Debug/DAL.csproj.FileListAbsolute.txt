@@ -14,3 +14,5 @@ C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.dll
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.pdb
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.Migrations.All_Tables_insertion.resources
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.Migrations.auto_increment_user_table.resources
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.Migrations.removing_auto_increment_user_table.resources
