@@ -104,6 +104,7 @@
     <Compile Include="AuthFilter\Logged.cs" />
     <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\DonorController.cs" />
+    <Compile Include="Controllers\GroupController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

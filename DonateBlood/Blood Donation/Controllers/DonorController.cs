@@ -11,11 +11,10 @@ using System.Web.Http.Cors;
 
 namespace Blood_Donation.Controllers
 {
+    [EnableCors("*", "*", "*")]
+    [Logged]
     public class DonorController : ApiController
     {
-        [EnableCors("*", "*", "*")]
-        [Logged]
-
         [HttpPost]
         [Route("api/donor/add")]
         public HttpResponseMessage Register(DonorDTO p)
@@ -96,7 +95,7 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpGet]
-        [Route("api/donors/{name}")]
+        [Route("api/donorss/{name}")]
         public HttpResponseMessage Get_Single_donor_By_name(string name)
         {
             try
