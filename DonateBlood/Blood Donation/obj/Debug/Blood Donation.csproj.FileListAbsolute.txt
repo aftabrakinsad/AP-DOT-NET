@@ -1,3 +1,4 @@
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\Blood Donation\bin\EntityFramework.xml
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\Blood Donation\bin\Blood Donation.dll.config
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\Blood Donation\bin\Blood Donation.dll
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\Blood Donation\bin\Blood Donation.pdb
@@ -65,7 +66,6 @@ C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\Blood Donation\bin\DAL.dll
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\Blood Donation\bin\BLL.pdb
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\Blood Donation\bin\BLL.dll.config
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\Blood Donation\bin\AutoMapper.xml
-C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\Blood Donation\bin\EntityFramework.xml
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\Blood Donation\bin\EntityFramework.SqlServer.xml
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\Blood Donation\bin\System.Web.Http.Cors.xml
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\Blood Donation\bin\Newtonsoft.Json.xml

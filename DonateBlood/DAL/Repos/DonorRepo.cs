@@ -50,9 +50,9 @@ namespace DAL.Repos
             return db.Donors.Find(id);
         }
 
-        public Donor GetChecker(string dname)
+        public Donor GetChecker(string name)
         {
-            var obj = db.Donors.FirstOrDefault(x => x.Name.Equals(dname));
+            var obj = db.Donors.FirstOrDefault(x => x.Name.Equals(name));
             return obj;
         }
 

@@ -62,9 +62,9 @@ namespace BLL.Services
             return null;
         }
 
-        public static DonorDTO GetChecker(string dname)
+        public static DonorDTO GetChecker(string name)
         {
-            var data = DataAccessFactory.DonorAuthCheckerDataAccess().GetChecker(dname);
+            var data = DataAccessFactory.DonorAuthCheckerDataAccess().GetChecker(name);
             var config = MapServices.OneTimeMapping<Donor, DonorDTO>();
             var mapper = new Mapper(config);
             return mapper.Map<DonorDTO>(data);
