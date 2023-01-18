@@ -63,21 +63,9 @@
     <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\IAuthC.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
-    <Compile Include="Migrations\202301161952176_All_Tables_insertion.cs" />
-    <Compile Include="Migrations\202301161952176_All_Tables_insertion.designer.cs">
-      <DependentUpon>202301161952176_All_Tables_insertion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202301170836200_auto_increment_user_table.cs" />
-    <Compile Include="Migrations\202301170836200_auto_increment_user_table.designer.cs">
-      <DependentUpon>202301170836200_auto_increment_user_table.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202301170842329_removing_auto_increment_user_table.cs" />
-    <Compile Include="Migrations\202301170842329_removing_auto_increment_user_table.designer.cs">
-      <DependentUpon>202301170842329_removing_auto_increment_user_table.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202301181859162_Update_Donor_table_v1.cs" />
-    <Compile Include="Migrations\202301181859162_Update_Donor_table_v1.designer.cs">
-      <DependentUpon>202301181859162_Update_Donor_table_v1.cs</DependentUpon>
+    <Compile Include="Migrations\202301181939552_Table_Insert_v1.cs" />
+    <Compile Include="Migrations\202301181939552_Table_Insert_v1.designer.cs">
+      <DependentUpon>202301181939552_Table_Insert_v1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -91,17 +79,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202301161952176_All_Tables_insertion.resx">
-      <DependentUpon>202301161952176_All_Tables_insertion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202301170836200_auto_increment_user_table.resx">
-      <DependentUpon>202301170836200_auto_increment_user_table.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202301170842329_removing_auto_increment_user_table.resx">
-      <DependentUpon>202301170842329_removing_auto_increment_user_table.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202301181859162_Update_Donor_table_v1.resx">
-      <DependentUpon>202301181859162_Update_Donor_table_v1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202301181939552_Table_Insert_v1.resx">
+      <DependentUpon>202301181939552_Table_Insert_v1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

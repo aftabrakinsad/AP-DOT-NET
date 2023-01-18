@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class All_Tables_insertion : DbMigration
+    public partial class Table_Insert_v1 : DbMigration
     {
         public override void Up()
         {
@@ -12,7 +12,7 @@
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
-                        Name = c.String(nullable: false, maxLength: 100),
+                        Donor_Name = c.String(nullable: false, maxLength: 100),
                         GrpId = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)

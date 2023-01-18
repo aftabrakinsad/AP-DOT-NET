@@ -7,13 +7,13 @@ namespace DAL.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class auto_increment_user_table : IMigrationMetadata
+    public sealed partial class Table_Insert_v1 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(auto_increment_user_table));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Table_Insert_v1));
         
         string IMigrationMetadata.Id
         {
-            get { return "202301170836200_auto_increment_user_table"; }
+            get { return "202301181939552_Table_Insert_v1"; }
         }
         
         string IMigrationMetadata.Source

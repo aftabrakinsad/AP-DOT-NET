@@ -23,7 +23,7 @@
                 {
                     Id = i,
                     Donor_Name = Guid.NewGuid().ToString().Substring(0, 5),
-                    GrpId= i,
+                    GrpId = i,
                 });
             }
             context.Donors.AddOrUpdate(donors.ToArray());
