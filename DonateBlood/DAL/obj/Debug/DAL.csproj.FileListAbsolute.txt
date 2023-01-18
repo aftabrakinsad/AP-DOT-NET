@@ -16,3 +16,4 @@ C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.csproj.CoreC
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.dll
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.pdb
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.Migrations.Update_Donor_table_v1.resources

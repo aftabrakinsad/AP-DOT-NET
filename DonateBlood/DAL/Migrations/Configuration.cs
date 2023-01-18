@@ -22,7 +22,7 @@
                 donors.Add(new Donor()
                 {
                     Id = i,
-                    Name = Guid.NewGuid().ToString().Substring(0, 5),
+                    Donor_Name = Guid.NewGuid().ToString().Substring(0, 5),
                     GrpId= i,
                 });
             }

@@ -15,7 +15,7 @@ namespace DAL.DB_EF_CF.Models
 
         [Required]
         [StringLength(100)]
-        public string Name { get; set; }
+        public string Donor_Name { get; set; }
 
         [ForeignKey("Group")]
         public int GrpId { get; set; }

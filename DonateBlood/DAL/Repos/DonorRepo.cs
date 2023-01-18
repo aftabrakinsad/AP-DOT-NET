@@ -52,7 +52,7 @@ namespace DAL.Repos
 
         public Donor GetChecker(string name)
         {
-            var obj = db.Donors.FirstOrDefault(x => x.Name.Equals(name));
+            var obj = db.Donors.FirstOrDefault(x => x.Donor_Name.Equals(name));
             return obj;
         }
 

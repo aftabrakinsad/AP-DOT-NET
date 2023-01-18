@@ -75,6 +75,10 @@
     <Compile Include="Migrations\202301170842329_removing_auto_increment_user_table.designer.cs">
       <DependentUpon>202301170842329_removing_auto_increment_user_table.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202301181859162_Update_Donor_table_v1.cs" />
+    <Compile Include="Migrations\202301181859162_Update_Donor_table_v1.designer.cs">
+      <DependentUpon>202301181859162_Update_Donor_table_v1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\DonorRepo.cs" />
@@ -95,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202301170842329_removing_auto_increment_user_table.resx">
       <DependentUpon>202301170842329_removing_auto_increment_user_table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301181859162_Update_Donor_table_v1.resx">
+      <DependentUpon>202301181859162_Update_Donor_table_v1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
