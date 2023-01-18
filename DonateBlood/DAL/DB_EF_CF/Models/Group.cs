@@ -18,7 +18,7 @@ namespace DAL.DB_EF_CF.Models
 
         [Required]
         [StringLength(50)]
-        public string Name { get; set; }
+        public string Group_Name { get; set; }
 
         public virtual ICollection<Donor> Donors { get; set; }
     }

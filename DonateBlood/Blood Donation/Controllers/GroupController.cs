@@ -16,14 +16,14 @@ namespace Blood_Donation.Controllers
     public class GroupController : ApiController
     {
         [HttpPost]
-        [Route("api/group/add")] //Addition of New Blood Group Data
-        public HttpResponseMessage Add_Group(GroupDTO p)
+        [Route("api/group/add")]
+        public HttpResponseMessage Add(GroupDTO g)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var data = GroupService.Add(p);
+                    var data = GroupService.Add(g);
                     return Request.CreateResponse(HttpStatusCode.OK, data);
                 }
                 return Request.CreateResponse(HttpStatusCode.NoContent);
@@ -35,7 +35,7 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpGet]
-        [Route("api/group/list")] //Blood Group List
+        [Route("api/group/list")]
         public HttpResponseMessage Get_All_Group()
         {
             try
@@ -50,8 +50,8 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpGet]
-        [Route("api/group/{id}")] //Search Blood Group by ID
-        public HttpResponseMessage Get_Single_Group(int id)
+        [Route("api/group/{id}")]
+        public HttpResponseMessage Get_Single_Group(string id)
         {
             try
             {
@@ -65,8 +65,8 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpDelete]
-        [Route("api/group/delete/{id}")] //Delect Blood Group by ID
-        public HttpResponseMessage DeleteGroup(int id)
+        [Route("api/group/delete/{id}")]
+        public HttpResponseMessage Delete_Group(string id)
         {
             try
             {
@@ -80,7 +80,7 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpPost]
-        [Route("api/group/update")] //Update Blood Group
+        [Route("api/group/update")]
         public HttpResponseMessage Update_Group(GroupDTO groupDTO)
         {
             try
@@ -95,8 +95,8 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpGet]
-        [Route("api/groupby/{name}")] //Search Blood Group By Name
-        public HttpResponseMessage Get_Single_Group_By_gname(string name)
+        [Route("api/group/{name}")]
+        public HttpResponseMessage Get_Single_Group_By_name(string name)
         {
             try
             {
@@ -109,8 +109,27 @@ namespace Blood_Donation.Controllers
             }
         }
 
+        [HttpPost]
+        [Route("api/group/donor/Add")]
+        public HttpResponseMessage ADD(DonorDTO d)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    var data = DonorService.Add(d);
+                    return Request.CreateResponse(HttpStatusCode.OK, data);
+                }
+                return Request.CreateResponse(HttpStatusCode.NoContent);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, ex);
+            }
+        }
+
         [HttpGet]
-        [Route("api/group/donorlist")] //View Donorlist With Blood Group
+        [Route("api/group/donorlist")]
         public HttpResponseMessage Get_All_Donor()
         {
             try
@@ -121,6 +140,20 @@ namespace Blood_Donation.Controllers
             catch (Exception ex)
             {
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
+            }
+        }
+
+        [HttpGet]
+        [Route("api/group/{name}/donor")]
+        public HttpResponseMessage Get_with_Donor(string name)
+        {
+            try
+            {
+                return Request.CreateResponse(HttpStatusCode.OK, GroupService.Get_with_Donor(name));
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex.Message);
             }
         }
     }

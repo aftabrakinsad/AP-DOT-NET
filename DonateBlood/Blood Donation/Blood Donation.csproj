@@ -101,7 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="AuthFilter\Logged.cs" />
+    <Compile Include="Auth\Logged.cs" />
     <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\DonorController.cs" />
     <Compile Include="Controllers\GroupController.cs" />

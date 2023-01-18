@@ -67,6 +67,10 @@
     <Compile Include="Migrations\202301181939552_Table_Insert_v1.designer.cs">
       <DependentUpon>202301181939552_Table_Insert_v1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202301182003300_Update_Group_Table_v2.cs" />
+    <Compile Include="Migrations\202301182003300_Update_Group_Table_v2.designer.cs">
+      <DependentUpon>202301182003300_Update_Group_Table_v2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\DonorRepo.cs" />
@@ -81,6 +85,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202301181939552_Table_Insert_v1.resx">
       <DependentUpon>202301181939552_Table_Insert_v1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301182003300_Update_Group_Table_v2.resx">
+      <DependentUpon>202301182003300_Update_Group_Table_v2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

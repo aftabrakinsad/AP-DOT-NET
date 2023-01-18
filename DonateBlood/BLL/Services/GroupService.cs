@@ -35,7 +35,7 @@ namespace BLL.Services
             return mapper.Map<List<GroupDTO>>(data);
         }
 
-        public static GroupDTO Get(int id)
+        public static GroupDTO Get(string id)
         {
             var data = DataAccessFactory.GroupDataAccess().Get(id);
             var config = MapServices.OneTimeMapping<Group, GroupDTO>();
@@ -43,7 +43,7 @@ namespace BLL.Services
             return mapper.Map<GroupDTO>(data);
         }
 
-        public static bool Delete(int id)
+        public static bool Delete(string id)
         {
             var data = DataAccessFactory.GroupDataAccess().Delete(id);
             return data;
@@ -62,12 +62,24 @@ namespace BLL.Services
             return null;
         }
 
-        public static GroupDTO GetChecker(string gname)
+        public static GroupDTO GetChecker(string name)
         {
-            var data = DataAccessFactory.GroupAuthCheckerDataAccess().GetChecker(gname);
+            var data = DataAccessFactory.GroupAuthCheckerDataAccess().GetChecker(name);
             var config = MapServices.OneTimeMapping<Group, GroupDTO>();
             var mapper = new Mapper(config);
             return mapper.Map<GroupDTO>(data);
+        }
+
+        public static GroupDonorDTO Get_with_Donor(string name)
+        {
+            var data = DataAccessFactory.GroupDataAccess().Get(name);
+            var cfg = new MapperConfiguration(c => {
+                c.CreateMap<Group, GroupDonorDTO>();
+                c.CreateMap<Donor, DonorDTO>();
+
+            });
+            var mapper = new Mapper(cfg);
+            return mapper.Map<GroupDonorDTO>(data);
         }
     }
 }

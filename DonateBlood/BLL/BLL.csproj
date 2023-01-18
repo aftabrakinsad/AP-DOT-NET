@@ -56,7 +56,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="DTOs\DonorDTO.cs" />
-    <Compile Include="DTOs\DonorGroupDTO.cs" />
+    <Compile Include="DTOs\GroupDonorDTO.cs" />
     <Compile Include="DTOs\GroupDTO.cs" />
     <Compile Include="DTOs\LoginDTO.cs" />
     <Compile Include="DTOs\TokenDTO.cs" />

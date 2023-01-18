@@ -9,6 +9,7 @@ C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\bin\Debug\EntityFramework.
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.Migrations.Table_Insert_v1.resources
+C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.Migrations.Update_Group_Table_v2.resources
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\AP-DOT-NET\DonateBlood\DAL\obj\Debug\DAL.csproj.CopyComplete
