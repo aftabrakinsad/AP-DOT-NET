@@ -12,11 +12,11 @@ namespace BLL.Services
 {
     public class GroupService
     {
-        public static GroupDTO Add(GroupDTO groupDTO)
+        public static GroupDTO Add(GroupDTO g)
         {
             var config = MapServices.Mapping<GroupDTO, Group>();
             var mapper = new Mapper(config);
-            var data = mapper.Map<Group>(groupDTO);
+            var data = mapper.Map<Group>(g);
             var repo = DataAccessFactory.GroupDataAccess().Add(data);
             if (repo != null)
             {
@@ -27,23 +27,21 @@ namespace BLL.Services
 
         public static List<GroupDTO> Get()
         {
-            var data = DataAccessFactory.GroupDataAccess().Get();
-            var config = new MapperConfiguration(cfg => {
-                cfg.CreateMap<Group, GroupDTO>();
-            });
+            var config = MapServices.OneTimeMapping<Group, GroupDTO>();
             var mapper = new Mapper(config);
+            var data = DataAccessFactory.GroupDataAccess().Get();
             return mapper.Map<List<GroupDTO>>(data);
         }
 
-        public static GroupDTO Get(string id)
+        public static GroupDTO Get(int id)
         {
-            var data = DataAccessFactory.GroupDataAccess().Get(id);
             var config = MapServices.OneTimeMapping<Group, GroupDTO>();
             var mapper = new Mapper(config);
+            var data = DataAccessFactory.GroupDataAccess().Get(id);
             return mapper.Map<GroupDTO>(data);
         }
 
-        public static bool Delete(string id)
+        public static bool Delete(int id)
         {
             var data = DataAccessFactory.GroupDataAccess().Delete(id);
             return data;
@@ -53,8 +51,8 @@ namespace BLL.Services
         {
             var config = MapServices.Mapping<Group, GroupDTO>();
             var mapper = new Mapper(config);
-            var group = mapper.Map<Group>(groupDTO);
-            var data = DataAccessFactory.GroupDataAccess().Update(group);
+            var staffs = mapper.Map<Group>(groupDTO);
+            var data = DataAccessFactory.GroupDataAccess().Update(staffs);
             if (data != null)
             {
                 return mapper.Map<GroupDTO>(data);
@@ -70,9 +68,9 @@ namespace BLL.Services
             return mapper.Map<GroupDTO>(data);
         }
 
-        public static GroupDonorDTO Get_with_Donor(string name)
+        public static GroupDonorDTO Get_with_Donor(int id)
         {
-            var data = DataAccessFactory.GroupDataAccess().Get(name);
+            var data = DataAccessFactory.GroupDataAccess().Get(id);
             var cfg = new MapperConfiguration(c => {
                 c.CreateMap<Group, GroupDonorDTO>();
                 c.CreateMap<Donor, DonorDTO>();

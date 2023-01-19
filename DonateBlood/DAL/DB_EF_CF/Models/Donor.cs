@@ -10,14 +10,16 @@ namespace DAL.DB_EF_CF.Models
 {
     public class Donor
     {
-        public int Id { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key]
+        public int Donor_ID { get; set; }
 
         [Required]
         [StringLength(100)]
         public string Donor_Name { get; set; }
 
         [ForeignKey("Group")]
-        public int GrpId { get; set; }
+        public int Group_Id { get; set; }
 
         public virtual Group Group { get; set; }
     }

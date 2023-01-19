@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class GroupRepo : IRepo<Group, string, Group>, IAuthC<Group, string>
+    internal class GroupRepo : IRepo<Group, int, Group>, IAuthC<Group, string>
     {
         BloodDonateEntities db;
         internal GroupRepo()
@@ -28,8 +28,9 @@ namespace DAL.Repos
             return null;
         }
 
-        public bool Delete(string id)
+        public bool Delete(int id)
         {
+
             var data = db.Groups.Find(id);
             db.Groups.Remove(data);
             if (db.SaveChanges() > 0)
@@ -44,26 +45,28 @@ namespace DAL.Repos
             return db.Groups.ToList();
         }
 
-        public Group Get(string id)
+        public Group Get(int id)
         {
-            return db.Groups.Find(id);
-        }
-
-        public Group GetChecker(string gname)
-        {
-            var obj = db.Groups.FirstOrDefault(x => x.Group_Name.Equals(gname));
-            return obj;
+            var data = db.Groups.Find(id);
+            return data;
         }
 
         public Group Update(Group obj)
         {
-            var data = Get(obj.Group_Name);
+            var data = Get(obj.Group_Id);
             db.Entry(data).CurrentValues.SetValues(obj);
             if (db.SaveChanges() > 0)
             {
                 return obj;
             }
             return null;
+        }
+
+        public Group GetChecker(string name)
+        {
+
+            var obj = db.Groups.FirstOrDefault(x => x.Group_Name.Equals(name));
+            return obj;
         }
     }
 }

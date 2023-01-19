@@ -12,11 +12,11 @@ namespace BLL.Services
 {
     public class DonorService
     {
-        public static DonorDTO Add(DonorDTO donorDTO)
+        public static DonorDTO Add(DonorDTO c)
         {
             var config = MapServices.Mapping<DonorDTO, Donor>();
             var mapper = new Mapper(config);
-            var data = mapper.Map<Donor>(donorDTO);
+            var data = mapper.Map<Donor>(c);
             var repo = DataAccessFactory.DonorDataAccess().Add(data);
             if (repo != null)
             {
@@ -27,19 +27,17 @@ namespace BLL.Services
 
         public static List<DonorDTO> Get()
         {
-            var data = DataAccessFactory.DonorDataAccess().Get();
-            var config = new MapperConfiguration(cfg => {
-                cfg.CreateMap<Donor, DonorDTO>();
-            });
-            var mapper = new Mapper(config);
-            return mapper.Map<List<DonorDTO>>(data);
+            var cfg = MapServices.OneTimeMapping<Donor, DonorDTO>();
+            var mapper = new Mapper(cfg);
+            var access = DataAccessFactory.DonorDataAccess().Get();
+            return mapper.Map<List<DonorDTO>>(access);
         }
 
         public static DonorDTO Get(int id)
         {
-            var data = DataAccessFactory.DonorDataAccess().Get(id);
             var config = MapServices.OneTimeMapping<Donor, DonorDTO>();
             var mapper = new Mapper(config);
+            var data = DataAccessFactory.DonorDataAccess().Get(id);
             return mapper.Map<DonorDTO>(data);
         }
 
@@ -51,17 +49,16 @@ namespace BLL.Services
 
         public static DonorDTO Update(DonorDTO donorDTO)
         {
-            var config = MapServices.Mapping<User, UserDTO>();
+            var config = MapServices.Mapping<Donor, DonorDTO>();
             var mapper = new Mapper(config);
-            var donor = mapper.Map<Donor>(donorDTO);
-            var data = DataAccessFactory.DonorDataAccess().Update(donor);
+            var ca = mapper.Map<Donor>(donorDTO);
+            var data = DataAccessFactory.DonorDataAccess().Update(ca);
             if (data != null)
             {
                 return mapper.Map<DonorDTO>(data);
             }
             return null;
         }
-
         public static DonorDTO GetChecker(string name)
         {
             var data = DataAccessFactory.DonorAuthCheckerDataAccess().GetChecker(name);

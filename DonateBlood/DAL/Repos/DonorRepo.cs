@@ -58,7 +58,7 @@ namespace DAL.Repos
 
         public Donor Update(Donor obj)
         {
-            var data = Get(obj.Id);
+            var data = Get(obj.Group_Id);
             db.Entry(data).CurrentValues.SetValues(obj);
             if (db.SaveChanges() > 0)
             {

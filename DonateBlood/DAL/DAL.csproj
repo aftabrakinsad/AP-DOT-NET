@@ -63,13 +63,9 @@
     <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\IAuthC.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
-    <Compile Include="Migrations\202301181939552_Table_Insert_v1.cs" />
-    <Compile Include="Migrations\202301181939552_Table_Insert_v1.designer.cs">
-      <DependentUpon>202301181939552_Table_Insert_v1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202301182003300_Update_Group_Table_v2.cs" />
-    <Compile Include="Migrations\202301182003300_Update_Group_Table_v2.designer.cs">
-      <DependentUpon>202301182003300_Update_Group_Table_v2.cs</DependentUpon>
+    <Compile Include="Migrations\202301190911244_Tables_Inserted.cs" />
+    <Compile Include="Migrations\202301190911244_Tables_Inserted.designer.cs">
+      <DependentUpon>202301190911244_Tables_Inserted.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,11 +79,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202301181939552_Table_Insert_v1.resx">
-      <DependentUpon>202301181939552_Table_Insert_v1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202301182003300_Update_Group_Table_v2.resx">
-      <DependentUpon>202301182003300_Update_Group_Table_v2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202301190911244_Tables_Inserted.resx">
+      <DependentUpon>202301190911244_Tables_Inserted.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

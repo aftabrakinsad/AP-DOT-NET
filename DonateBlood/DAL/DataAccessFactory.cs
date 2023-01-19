@@ -27,7 +27,7 @@ namespace DAL
             return new UserRepo();
         }
 
-        public static IRepo<Group, string, Group> GroupDataAccess()
+        public static IRepo<Group, int, Group> GroupDataAccess()
         {
             return new GroupRepo();
         }

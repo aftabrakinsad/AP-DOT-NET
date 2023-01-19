@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Table_Insert_v1 : DbMigration
+    public partial class Tables_Inserted : DbMigration
     {
         public override void Up()
         {
@@ -11,22 +11,22 @@
                 "dbo.Donors",
                 c => new
                     {
-                        Id = c.Int(nullable: false, identity: true),
+                        Donor_ID = c.Int(nullable: false, identity: true),
                         Donor_Name = c.String(nullable: false, maxLength: 100),
-                        GrpId = c.Int(nullable: false),
+                        Group_Id = c.Int(nullable: false),
                     })
-                .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Groups", t => t.GrpId, cascadeDelete: true)
-                .Index(t => t.GrpId);
+                .PrimaryKey(t => t.Donor_ID)
+                .ForeignKey("dbo.Groups", t => t.Group_Id, cascadeDelete: true)
+                .Index(t => t.Group_Id);
             
             CreateTable(
                 "dbo.Groups",
                 c => new
                     {
-                        Id = c.Int(nullable: false, identity: true),
-                        Name = c.String(nullable: false, maxLength: 50),
+                        Group_Id = c.Int(nullable: false, identity: true),
+                        Group_Name = c.String(nullable: false, maxLength: 50),
                     })
-                .PrimaryKey(t => t.Id);
+                .PrimaryKey(t => t.Group_Id);
             
             CreateTable(
                 "dbo.Tokens",
@@ -54,8 +54,8 @@
         
         public override void Down()
         {
-            DropForeignKey("dbo.Donors", "GrpId", "dbo.Groups");
-            DropIndex("dbo.Donors", new[] { "GrpId" });
+            DropForeignKey("dbo.Donors", "Group_Id", "dbo.Groups");
+            DropIndex("dbo.Donors", new[] { "Group_Id" });
             DropTable("dbo.Users");
             DropTable("dbo.Tokens");
             DropTable("dbo.Groups");

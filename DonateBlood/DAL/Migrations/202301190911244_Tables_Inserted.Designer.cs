@@ -7,13 +7,13 @@ namespace DAL.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class Update_Group_Table_v2 : IMigrationMetadata
+    public sealed partial class Tables_Inserted : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Update_Group_Table_v2));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Tables_Inserted));
         
         string IMigrationMetadata.Id
         {
-            get { return "202301182003300_Update_Group_Table_v2"; }
+            get { return "202301190911244_Tables_Inserted"; }
         }
         
         string IMigrationMetadata.Source

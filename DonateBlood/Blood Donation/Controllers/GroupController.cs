@@ -51,7 +51,7 @@ namespace Blood_Donation.Controllers
 
         [HttpGet]
         [Route("api/group/{id}")]
-        public HttpResponseMessage Get_Single_Group(string id)
+        public HttpResponseMessage Get_Single_Group(int id)
         {
             try
             {
@@ -66,7 +66,7 @@ namespace Blood_Donation.Controllers
 
         [HttpDelete]
         [Route("api/group/delete/{id}")]
-        public HttpResponseMessage Delete_Group(string id)
+        public HttpResponseMessage Delete_Group(int id)
         {
             try
             {
@@ -144,12 +144,12 @@ namespace Blood_Donation.Controllers
         }
 
         [HttpGet]
-        [Route("api/group/{name}/donor")]
-        public HttpResponseMessage Get_with_Donor(string name)
+        [Route("api/group/{id}/donor")]
+        public HttpResponseMessage Get_with_Donor(int id)
         {
             try
             {
-                return Request.CreateResponse(HttpStatusCode.OK, GroupService.Get_with_Donor(name));
+                return Request.CreateResponse(HttpStatusCode.OK, GroupService.Get_with_Donor(id));
             }
             catch (Exception ex)
             {
