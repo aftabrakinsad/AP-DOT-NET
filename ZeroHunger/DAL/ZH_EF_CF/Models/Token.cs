@@ -21,9 +21,6 @@ namespace DAL.ZH_EF_CF.Models
         public Nullable<System.DateTime> ExpirationTime { get; set; }
 
         [Required]
-        public string Email { get; set; }
-
-        [Required]
         public string Type { get; set; }
     }
 }

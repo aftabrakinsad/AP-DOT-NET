@@ -70,18 +70,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DTOs\CL_AuthDTO.cs" />
     <Compile Include="DTOs\Cl_CraDTO.cs" />
     <Compile Include="DTOs\Collection_req_acceptDTO.cs" />
     <Compile Include="DTOs\Company_loginDTO.cs" />
+    <Compile Include="DTOs\EL_AuthDTO.cs" />
     <Compile Include="DTOs\El_EiDTO.cs" />
     <Compile Include="DTOs\Employee_infoDTO.cs" />
     <Compile Include="DTOs\Employee_loginDTO.cs" />
     <Compile Include="DTOs\Restaurant_Collection_requestDTO.cs" />
     <Compile Include="DTOs\Restaurant_loginDTO.cs" />
+    <Compile Include="DTOs\RL_AuthDTO.cs" />
     <Compile Include="DTOs\Rl_CraDTO.cs" />
     <Compile Include="DTOs\Rl_RCrDTO.cs" />
     <Compile Include="DTOs\TokenDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AuthService.cs" />
+    <Compile Include="Services\MapServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
@@ -93,6 +98,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
