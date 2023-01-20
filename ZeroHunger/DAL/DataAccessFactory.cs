@@ -16,6 +16,11 @@ namespace DAL
             return new RestaurantloginRepo();
         }
 
+        public static IRepo<Employee_login, int, Employee_login> EmploginDataAccess()
+        {
+            return new EmployeeloginRepo();
+        }
+
         public static IRepo<Restaurant_Collection_request, int, Restaurant_Collection_request> ResCollReqDataAccess()
         {
             return new CollectionReqRepo();
