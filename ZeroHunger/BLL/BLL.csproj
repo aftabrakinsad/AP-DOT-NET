@@ -70,6 +70,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DTOs\Collection_req_acceptDTO.cs" />
+    <Compile Include="DTOs\Company_loginDTO.cs" />
+    <Compile Include="DTOs\Employee_infoDTO.cs" />
+    <Compile Include="DTOs\Employee_loginDTO.cs" />
+    <Compile Include="DTOs\Restaurant_Collection_requestDTO.cs" />
+    <Compile Include="DTOs\Restaurant_loginDTO.cs" />
+    <Compile Include="DTOs\TokenDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
