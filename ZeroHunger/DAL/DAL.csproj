@@ -74,6 +74,7 @@
     <Compile Include="Interface\IAuthC.cs" />
     <Compile Include="Interface\IRepo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\CollectionReqAcceptRepo.cs" />
     <Compile Include="Repos\CollectionReqRepo.cs" />
     <Compile Include="Repos\CompanyloginRepo.cs" />
     <Compile Include="Repos\EmployeeloginRepo.cs" />
