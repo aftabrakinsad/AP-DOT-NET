@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Interface
 {
-    public interface AuthC<CLASS,ID>
+    public interface IAuthC<CLASS,ID>
     {
         CLASS GetChecker(ID id);
     }
