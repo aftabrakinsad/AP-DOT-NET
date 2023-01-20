@@ -12,17 +12,17 @@ namespace DAL
     public class DataAccessFactory
     {
         //Auth
-        public static IAuth<Restaurant_login, int> AuthResloginDataAccess()
+        public static IAuth<Restaurant_login, int> AuthResloginCheckerDataAccess()
         {
             return new RestaurantloginRepo();
         }
 
-        public static IAuth<Employee_login, int> AuthEmploginDataAccess()
+        public static IAuth<Employee_login, int> AuthEmploginCheckerDataAccess()
         {
             return new EmployeeloginRepo();
         }
 
-        public static IAuth<Company_login, int> AuthComloginDataAccess()
+        public static IAuth<Company_login, int> AuthComloginCheckerDataAccess()
         {
             return new CompanyloginRepo();
         }

@@ -15,9 +15,9 @@ namespace BLL.Services
     {
         public static TokenDTO Authenticate(int id, string password)
         {
-            var comlogin = DataAccessFactory.AuthComloginDataAccess().Authenticate(id, password);
-            var reslogin = DataAccessFactory.AuthResloginDataAccess().Authenticate(id, password);
-            var emplogin = DataAccessFactory.AuthEmploginDataAccess().Authenticate(id, password);
+            var comlogin = DataAccessFactory.AuthComloginCheckerDataAccess().Authenticate(id, password);
+            var reslogin = DataAccessFactory.AuthResloginCheckerDataAccess().Authenticate(id, password);
+            var emplogin = DataAccessFactory.AuthEmploginCheckerDataAccess().Authenticate(id, password);
             if (comlogin != null)
             {
                 var token = new Token();
