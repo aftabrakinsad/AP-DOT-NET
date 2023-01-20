@@ -69,13 +69,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="DataAccessFactory.cs" />
     <Compile Include="Interface\IAuth.cs" />
     <Compile Include="Interface\IAuthC.cs" />
     <Compile Include="Interface\IRepo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\CollectionReqRepo.cs" />
     <Compile Include="Repos\ERepo.cs" />
+    <Compile Include="Repos\RestaurantloginRepo.cs" />
     <Compile Include="ZH_EF_CF\Models\Collection_req_accept.cs" />
     <Compile Include="ZH_EF_CF\Models\Company_login.cs" />
     <Compile Include="ZH_EF_CF\Models\Employee_info.cs" />
