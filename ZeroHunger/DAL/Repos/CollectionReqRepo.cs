@@ -12,7 +12,7 @@ namespace DAL.Repos
     {
         public Restaurant_Collection_request Add(Restaurant_Collection_request obj)
         {
-            db.Rescolrequests.Add(obj);
+            db.Restaurant_Collection_Requests.Add(obj);
             if (db.SaveChanges() > 0)
             {
                 return obj;
@@ -22,14 +22,14 @@ namespace DAL.Repos
 
         public Restaurant_Collection_request Authenticate(int id, string pass)
         {
-            var obj = db.Rescolrequests.FirstOrDefault(x => x.res_id.Equals(id));
+            var obj = db.Restaurant_Collection_Requests.FirstOrDefault(x => x.res_id.Equals(id));
             return obj;
         }
 
         public bool Delete(int id)
         {
-            var data = db.Rescolrequests.Find(id);
-            db.Rescolrequests.Remove(data);
+            var data = db.Restaurant_Collection_Requests.Find(id);
+            db.Restaurant_Collection_Requests.Remove(data);
             if (db.SaveChanges() > 0)
             {
                 return true;
@@ -39,17 +39,17 @@ namespace DAL.Repos
 
         public List<Restaurant_Collection_request> Get()
         {
-            return db.Rescolrequests.ToList();
+            return db.Restaurant_Collection_Requests.ToList();
         }
 
         public Restaurant_Collection_request Get(int id)
         {
-            return db.Rescolrequests.Find(id);
+            return db.Restaurant_Collection_Requests.Find(id);
         }
 
         public Restaurant_Collection_request GetChecker(int id)
         {
-            var obj = db.Rescolrequests.FirstOrDefault(x => x.res_id.Equals(id));
+            var obj = db.Restaurant_Collection_Requests.FirstOrDefault(x => x.res_id.Equals(id));
             return obj;
         }
 

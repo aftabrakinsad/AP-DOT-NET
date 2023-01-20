@@ -21,9 +21,29 @@ namespace DAL
             return new EmployeeloginRepo();
         }
 
+        public static IRepo<Company_login, int, Company_login> ComloginDataAccess()
+        {
+            return new CompanyloginRepo();
+        }
+
         public static IRepo<Restaurant_Collection_request, int, Restaurant_Collection_request> ResCollReqDataAccess()
         {
             return new CollectionReqRepo();
+        }
+
+        public static IRepo<Collection_req_accept, int, Collection_req_accept> CollReqAcceptDataAccess()
+        {
+            return new CollectionReqAcceptRepo();
+        }
+
+        public static IRepo<Employee_info, int, Employee_info> EmpInfoDataAccess()
+        {
+            return new EmployeeInfoRepo();
+        }
+
+        public static IRepo<Token, string, Token> TokenDataAccess()
+        {
+            return new TokenRepo();
         }
     }
 }

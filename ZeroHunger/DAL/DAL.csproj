@@ -77,15 +77,18 @@
     <Compile Include="Repos\CollectionReqAcceptRepo.cs" />
     <Compile Include="Repos\CollectionReqRepo.cs" />
     <Compile Include="Repos\CompanyloginRepo.cs" />
+    <Compile Include="Repos\EmployeeInfoRepo.cs" />
     <Compile Include="Repos\EmployeeloginRepo.cs" />
     <Compile Include="Repos\ERepo.cs" />
     <Compile Include="Repos\RestaurantloginRepo.cs" />
+    <Compile Include="Repos\TokenRepo.cs" />
     <Compile Include="ZH_EF_CF\Models\Collection_req_accept.cs" />
     <Compile Include="ZH_EF_CF\Models\Company_login.cs" />
     <Compile Include="ZH_EF_CF\Models\Employee_info.cs" />
     <Compile Include="ZH_EF_CF\Models\Employee_login.cs" />
     <Compile Include="ZH_EF_CF\Models\Restaurant_Collection_request.cs" />
     <Compile Include="ZH_EF_CF\Models\Restaurant_login.cs" />
+    <Compile Include="ZH_EF_CF\Models\Token.cs" />
     <Compile Include="ZH_EF_CF\ZeroHungerEntities.cs" />
   </ItemGroup>
   <ItemGroup>

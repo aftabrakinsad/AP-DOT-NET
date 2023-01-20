@@ -12,7 +12,7 @@ namespace DAL.Repos
     {
         public Company_login Add(Company_login obj)
         {
-            db.Comlogins.Add(obj);
+            db.Company_Logins.Add(obj);
             if (db.SaveChanges() > 0)
             {
                 return obj;
@@ -22,14 +22,14 @@ namespace DAL.Repos
 
         public Company_login Authenticate(int id, string pass)
         {
-            var obj = db.Comlogins.FirstOrDefault(x => x.com_id.Equals(id) && x.com_pass.Equals(pass));
+            var obj = db.Company_Logins.FirstOrDefault(x => x.com_id.Equals(id) && x.com_pass.Equals(pass));
             return obj;
         }
 
         public bool Delete(int id)
         {
-            var data = db.Comlogins.Find(id);
-            db.Comlogins.Remove(data);
+            var data = db.Company_Logins.Find(id);
+            db.Company_Logins.Remove(data);
             if (db.SaveChanges() > 0)
             {
                 return true;
@@ -39,17 +39,17 @@ namespace DAL.Repos
 
         public List<Company_login> Get()
         {
-            return db.Comlogins.ToList();
+            return db.Company_Logins.ToList();
         }
 
         public Company_login Get(int id)
         {
-            return db.Comlogins.Find(id);
+            return db.Company_Logins.Find(id);
         }
 
         public Company_login GetChecker(int id)
         {
-            var obj = db.Comlogins.FirstOrDefault(x => x.com_id.Equals(id));
+            var obj = db.Company_Logins.FirstOrDefault(x => x.com_id.Equals(id));
             return obj;
         }
 

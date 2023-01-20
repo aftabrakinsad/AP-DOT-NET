@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class EmployeeloginRepo : ERepo, IRepo<Employee_login, int, Employee_login>, IAuth<Employee_login, int>, IAuthC<Employee_login, int>
+    internal class EmployeeInfoRepo : ERepo, IRepo<Employee_info, int, Employee_info>, IAuth<Employee_info, int>, IAuthC<Employee_info, int>
     {
-        public Employee_login Add(Employee_login obj)
+        public Employee_info Add(Employee_info obj)
         {
-            db.Employee_Logins.Add(obj);
+            db.Employee_Infos.Add(obj);
             if (db.SaveChanges() > 0)
             {
                 return obj;
@@ -20,16 +20,16 @@ namespace DAL.Repos
             return null;
         }
 
-        public Employee_login Authenticate(int id, string pass)
+        public Employee_info Authenticate(int id, string pass)
         {
-            var obj = db.Employee_Logins.FirstOrDefault(x => x.emp_id.Equals(id) && x.emp_pass.Equals(pass));
+            var obj = db.Employee_Infos.FirstOrDefault(x => x.emp_id.Equals(id));
             return obj;
         }
 
         public bool Delete(int id)
         {
-            var data = db.Employee_Logins.Find(id);
-            db.Employee_Logins.Remove(data);
+            var data = db.Employee_Infos.Find(id);
+            db.Employee_Infos.Remove(data);
             if (db.SaveChanges() > 0)
             {
                 return true;
@@ -37,23 +37,23 @@ namespace DAL.Repos
             return false;
         }
 
-        public List<Employee_login> Get()
+        public List<Employee_info> Get()
         {
-            return db.Employee_Logins.ToList();
+            return db.Employee_Infos.ToList();
         }
 
-        public Employee_login Get(int id)
+        public Employee_info Get(int id)
         {
-            return db.Employee_Logins.Find(id);
+            return db.Employee_Infos.Find(id);
         }
 
-        public Employee_login GetChecker(int id)
+        public Employee_info GetChecker(int id)
         {
-            var obj = db.Employee_Logins.FirstOrDefault(x => x.emp_id.Equals(id));
+            var obj = db.Employee_Infos.FirstOrDefault(x => x.emp_id.Equals(id));
             return obj;
         }
 
-        public Employee_login Update(Employee_login obj)
+        public Employee_info Update(Employee_info obj)
         {
             var data = Get(obj.emp_id);
             db.Entry(data).CurrentValues.SetValues(obj);

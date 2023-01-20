@@ -12,7 +12,7 @@ namespace DAL.Repos
     {
         public Collection_req_accept Add(Collection_req_accept obj)
         {
-            db.Colrequestaccepts.Add(obj);
+            db.Collection_Req_Accepts.Add(obj);
             if (db.SaveChanges() > 0)
             {
                 return obj;
@@ -22,14 +22,14 @@ namespace DAL.Repos
 
         public Collection_req_accept Authenticate(int id, string pass)
         {
-            var obj = db.Colrequestaccepts.FirstOrDefault(x => x.ID.Equals(id));
+            var obj = db.Collection_Req_Accepts.FirstOrDefault(x => x.ID.Equals(id));
             return obj;
         }
 
         public bool Delete(int id)
         {
-            var data = db.Colrequestaccepts.Find(id);
-            db.Colrequestaccepts.Remove(data);
+            var data = db.Collection_Req_Accepts.Find(id);
+            db.Collection_Req_Accepts.Remove(data);
             if (db.SaveChanges() > 0)
             {
                 return true;
@@ -39,17 +39,17 @@ namespace DAL.Repos
 
         public List<Collection_req_accept> Get()
         {
-            return db.Colrequestaccepts.ToList();
+            return db.Collection_Req_Accepts.ToList();
         }
 
         public Collection_req_accept Get(int id)
         {
-            return db.Colrequestaccepts.Find(id);
+            return db.Collection_Req_Accepts.Find(id);
         }
 
         public Collection_req_accept GetChecker(int id)
         {
-            var obj = db.Colrequestaccepts.FirstOrDefault(x => x.ID.Equals(id));
+            var obj = db.Collection_Req_Accepts.FirstOrDefault(x => x.ID.Equals(id));
             return obj;
         }
 

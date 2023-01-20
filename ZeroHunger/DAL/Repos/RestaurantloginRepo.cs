@@ -12,7 +12,7 @@ namespace DAL.Repos
     {
         public Restaurant_login Add(Restaurant_login obj)
         {
-            db.Reslogins.Add(obj);
+            db.Restaurant_Logins.Add(obj);
             if (db.SaveChanges() > 0)
             {
                 return obj;
@@ -22,14 +22,14 @@ namespace DAL.Repos
 
         public Restaurant_login Authenticate(int id, string pass)
         {
-            var obj = db.Reslogins.FirstOrDefault(x => x.res_id.Equals(id) && x.res_pass.Equals(pass));
+            var obj = db.Restaurant_Logins.FirstOrDefault(x => x.res_id.Equals(id) && x.res_pass.Equals(pass));
             return obj;
         }
 
         public bool Delete(int id)
         {
-            var data = db.Reslogins.Find(id);
-            db.Reslogins.Remove(data);
+            var data = db.Restaurant_Logins.Find(id);
+            db.Restaurant_Logins.Remove(data);
             if (db.SaveChanges() > 0)
             {
                 return true;
@@ -39,17 +39,17 @@ namespace DAL.Repos
 
         public List<Restaurant_login> Get()
         {
-            return db.Reslogins.ToList();
+            return db.Restaurant_Logins.ToList();
         }
 
         public Restaurant_login Get(int id)
         {
-            return db.Reslogins.Find(id);
+            return db.Restaurant_Logins.Find(id);
         }
 
         public Restaurant_login GetChecker(int id)
         {
-            var obj = db.Reslogins.FirstOrDefault(x => x.res_id.Equals(id));
+            var obj = db.Restaurant_Logins.FirstOrDefault(x => x.res_id.Equals(id));
             return obj;
         }
 
