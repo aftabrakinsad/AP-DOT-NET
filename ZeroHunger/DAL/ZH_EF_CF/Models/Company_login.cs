@@ -15,7 +15,7 @@ namespace DAL.ZH_EF_CF.Models
 
         [Required]
         [StringLength(50)]
-        public int com_pass { get; set;}
+        public string com_pass { get; set;}
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }

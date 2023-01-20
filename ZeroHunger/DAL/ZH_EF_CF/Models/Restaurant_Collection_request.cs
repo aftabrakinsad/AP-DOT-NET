@@ -20,7 +20,6 @@ namespace DAL.ZH_EF_CF.Models
         [Required]
         public string res_name { get; set; }
 
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int c_id { get; set; }
 
         [Required]

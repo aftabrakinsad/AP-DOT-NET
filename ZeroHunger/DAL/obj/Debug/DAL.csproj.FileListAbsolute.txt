@@ -17,6 +17,8 @@ C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\DAL\bin\Debug\System.Net.Http.F
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\DAL\bin\Debug\System.Web.Http.xml
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\DAL\bin\Debug\System.Web.Http.Cors.xml
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\DAL\obj\Debug\DAL.Migrations.Tables_Created.resources
+C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\DAL\obj\Debug\DAL.dll

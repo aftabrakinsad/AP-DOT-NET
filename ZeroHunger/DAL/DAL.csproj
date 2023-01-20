@@ -73,6 +73,11 @@
     <Compile Include="Interface\IAuth.cs" />
     <Compile Include="Interface\IAuthC.cs" />
     <Compile Include="Interface\IRepo.cs" />
+    <Compile Include="Migrations\202301202011447_Tables_Created.cs" />
+    <Compile Include="Migrations\202301202011447_Tables_Created.designer.cs">
+      <DependentUpon>202301202011447_Tables_Created.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\CollectionReqAcceptRepo.cs" />
     <Compile Include="Repos\CollectionReqRepo.cs" />
@@ -95,7 +100,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202301202011447_Tables_Created.resx">
+      <DependentUpon>202301202011447_Tables_Created.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

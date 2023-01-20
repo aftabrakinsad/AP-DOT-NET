@@ -10,6 +10,10 @@ namespace DAL.ZH_EF_CF.Models
 {
     public class Employee_info
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int ID { get; set; }
+
         [ForeignKey("Employee_login")]
         public int emp_id { get; set; }
         public virtual Employee_login Employee_login { get; set; }
