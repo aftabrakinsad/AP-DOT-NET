@@ -11,7 +11,6 @@
         <tr>
             <td>
                 <label for="Restaurant ID">
-
                     <input type="number" name="res_id" id="res_id" placeholder="ID" /><br>
                 </label>
             </td>
@@ -23,6 +22,14 @@
                 <label for="Restaurant Password">
                     <input type="password" name="res_pass" id="res_pass" placeholder="Password" /><br>
                 </label>
+            </td>
+            <td>
+                <span>
+                    @if (TempData["msg"] != null)
+                    {
+                        <span class="alert alert-danger">@TempData["msg"]</span>
+                    }
+                </span>
             </td>
         </tr>
 

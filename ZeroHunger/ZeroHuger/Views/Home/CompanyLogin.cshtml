@@ -24,6 +24,14 @@
                     <input type="password" name="com_pass" id="com_pass" placeholder="Password" /><br>
                 </label>
             </td>
+            <td>
+                <span>
+                    @if (TempData["msg"] != null)
+                    {
+                        <span class="alert alert-danger">@TempData["msg"]</span>
+                    }
+                </span>
+            </td>
         </tr>
 
         <tr>
