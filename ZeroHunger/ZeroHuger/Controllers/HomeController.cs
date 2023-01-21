@@ -16,6 +16,13 @@ namespace ZeroHuger.Controllers
             return View();
         }
 
+        [HttpGet]
+        public ActionResult EmployeeLogin()
+        {
+            return View();
+        }
+
+        [HttpPost]
         public ActionResult EmployeeLogin(Employee_loginDTO emplog)
         {
             var emp = Emp_Log_Service.Get(emplog.emp_id);
@@ -28,13 +35,17 @@ namespace ZeroHuger.Controllers
                     return RedirectToAction("Index", "Home");
                 }
             }
-            else
-            {
-                TempData["msg"] = "Invalid ID or Password";
-            }
+            TempData["msg"] = "Invalid ID or Password";
             return RedirectToAction("EmployeeLogin");
         }
 
+        [HttpGet]
+        public ActionResult CompanyLogin()
+        {
+            return View();
+        }
+
+        [HttpPost]
         public ActionResult CompanyLogin(Company_loginDTO comlog)
         {
             var com = Com_Log_Service.Get(comlog.com_id);
@@ -47,13 +58,17 @@ namespace ZeroHuger.Controllers
                     return RedirectToAction("Index", "Home");
                 }
             }
-            else
-            {
-                TempData["msg"] = "Invalid ID or Password";
-            }
+            TempData["msg"] = "Invalid ID or Password";
             return RedirectToAction("CompanyLogin");
         }
 
+        [HttpGet]
+        public ActionResult RestaurantLogin()
+        {
+            return View();
+        }
+
+        [HttpPost]
         public ActionResult RestaurantLogin(Restaurant_loginDTO reslog)
         {
             var res = Res_Log_Service.Get(reslog.res_id);
@@ -66,10 +81,7 @@ namespace ZeroHuger.Controllers
                     return RedirectToAction("Index", "Home");
                 }
             }
-            else
-            {
-                TempData["msg"] = "Invalid ID or Password";
-            }
+            TempData["msg"] = "Invalid ID or Password";
             return RedirectToAction("RestaurantLogin");
         }
     }
