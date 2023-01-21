@@ -88,6 +88,7 @@
     <Compile Include="Services\AuthService.cs" />
     <Compile Include="Services\Coll_req_acc_Service.cs" />
     <Compile Include="Services\Com_Log_Service.cs" />
+    <Compile Include="Services\Emp_info_Service.cs" />
     <Compile Include="Services\Emp_Log_Service.cs" />
     <Compile Include="Services\MapServices.cs" />
     <Compile Include="Services\Res_Coll_req_Service.cs" />
