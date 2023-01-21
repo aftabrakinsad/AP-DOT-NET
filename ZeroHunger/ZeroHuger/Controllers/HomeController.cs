@@ -8,19 +8,19 @@ namespace ZeroHuger.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult EmployeeLogin()
         {
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Restaurant()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Company()
         {
             ViewBag.Message = "Your contact page.";
 
