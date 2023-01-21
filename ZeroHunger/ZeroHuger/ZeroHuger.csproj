@@ -196,6 +196,9 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\EmployeeLogin.cshtml" />
+    <Content Include="Views\Home\CompanyLogin.cshtml" />
+    <Content Include="Views\Home\RestaurantLogin.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

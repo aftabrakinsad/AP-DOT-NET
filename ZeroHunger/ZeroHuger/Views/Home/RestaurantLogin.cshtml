@@ -1,19 +1,18 @@
-﻿@model BLL.DTOs.Employee_loginDTO
-
+﻿@model BLL.DTOs.Restaurant_loginDTO
 @{
-    ViewBag.Title = "EmployeeLogin";
+    ViewBag.Title = "RestaurantLogin";
 }
 
 <form action="" method="POST" enctype="multipart/form-data">
 
-    <h2>Employee Login</h2>
+    <h2>Restaurant Login</h2>
     <table class="container">
 
         <tr>
             <td>
-                <label for="Employee ID">
-                    
-                    <input type="number" name="emp_id" id="emp_id" placeholder="ID" /><br>
+                <label for="Restaurant ID">
+
+                    <input type="number" name="res_id" id="res_id" placeholder="ID" /><br>
                 </label>
             </td>
 
@@ -21,8 +20,8 @@
 
         <tr>
             <td>
-                <label for="Employee Password">
-                    <input type="password" name="emp_pass" id="emp_pass" placeholder="Password" /><br>
+                <label for="Restaurant Password">
+                    <input type="password" name="res_pass" id="res_pass" placeholder="Password" /><br>
                 </label>
             </td>
         </tr>
@@ -36,7 +35,7 @@
 </form>
 
 <div>
-    @Html.ActionLink("Back to List", "EmployeeLogin")
+    @Html.ActionLink("Back to List", "RestaurantLogin")
 </div>
 
 @section Scripts {
