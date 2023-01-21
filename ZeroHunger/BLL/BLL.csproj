@@ -90,6 +90,7 @@
     <Compile Include="Services\Emp_Log_Service.cs" />
     <Compile Include="Services\MapServices.cs" />
     <Compile Include="Services\Res_Coll_req_Service.cs" />
+    <Compile Include="Services\Res_Log_Service.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
