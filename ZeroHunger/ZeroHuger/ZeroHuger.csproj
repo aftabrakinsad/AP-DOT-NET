@@ -150,7 +150,11 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Auth\Logged.cs" />
+    <Compile Include="Controllers\API-Testing\APICollReqAccController.cs" />
+    <Compile Include="Controllers\API-Testing\APIComLoginController.cs" />
+    <Compile Include="Controllers\API-Testing\APIEmpLoginController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\API-Testing\APIResLoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

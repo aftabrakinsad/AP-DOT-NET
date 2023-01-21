@@ -10,7 +10,7 @@ namespace BLL.DTOs
     {
         public int com_id { get; set; }
 
-        public int com_pass { get; set;}
+        public string com_pass { get; set;}
 
         public int ID { get; set; }
     }
