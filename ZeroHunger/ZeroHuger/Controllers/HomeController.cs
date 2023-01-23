@@ -32,7 +32,7 @@ namespace ZeroHuger.Controllers
                 {
                     Session["logged"] = emp.emp_id;
                     Session["logged"] = emp.emp_pass;
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("EmployeeList", "Employee");
                 }
             }
             TempData["msg"] = "Invalid ID or Password";

@@ -155,6 +155,7 @@
     <Compile Include="Controllers\API-Testing\APIEmpInfoController.cs" />
     <Compile Include="Controllers\API-Testing\APIEmpLoginController.cs" />
     <Compile Include="Controllers\API-Testing\APIResCollReqController.cs" />
+    <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\API-Testing\APIResLoginController.cs" />
     <Compile Include="Global.asax.cs">
@@ -199,6 +200,7 @@
     <Content Include="Views\Home\CompanyLogin.cshtml" />
     <Content Include="Views\Home\RestaurantLogin.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Employee\EmployeeList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

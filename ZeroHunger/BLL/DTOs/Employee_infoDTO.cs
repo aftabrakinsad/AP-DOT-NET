@@ -8,6 +8,8 @@ namespace BLL.DTOs
 {
     public class Employee_infoDTO
     {
+        public int ID { get; set; }
+
         public int emp_id { get; set; }
 
         public string emp_name { get; set; }
