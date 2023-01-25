@@ -1,3 +1,6 @@
+C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\FT_LAB_ONE.dll.config
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\FT_LAB_ONE.dll
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\FT_LAB_ONE.pdb
@@ -8,14 +11,11 @@ C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\csi.exe
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\csi.exe.config
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\csi.rsp
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\Microsoft.CSharp.Core.targets
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\Microsoft.Managed.Core.targets
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\Microsoft.VisualBasic.Core.targets
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\FT_LAB_ONE\bin\roslyn\Microsoft.Win32.Primitives.dll

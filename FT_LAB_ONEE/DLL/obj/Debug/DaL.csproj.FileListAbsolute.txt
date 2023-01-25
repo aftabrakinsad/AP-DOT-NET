@@ -1,10 +1,10 @@
-C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\DLL\obj\Debug\DaL.csproj.AssemblyReference.cache
-C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\DLL\obj\Debug\DaL.csproj.CoreCompileInputs.cache
-C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\DLL\obj\Debug\DLL.dll
-C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\DLL\obj\Debug\DLL.pdb
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\DLL\bin\Debug\DLL.dll.config
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\DLL\bin\Debug\DLL.dll
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\DLL\bin\Debug\DLL.pdb
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\DLL\bin\Debug\EntityFramework.dll
 C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\DLL\bin\Debug\EntityFramework.xml
-C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\DLL\obj\Debug\DaL.csproj.CopyComplete
+C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\DLL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\DLL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\DLL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\DLL\obj\Debug\DLL.dll
+C:\Users\user\source\repos\AP-DOT-NET\FT_LAB_ONEE\DLL\obj\Debug\DLL.pdb
