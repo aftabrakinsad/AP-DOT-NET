@@ -156,6 +156,7 @@
     <Compile Include="Controllers\API-Testing-BackEnd\APIEmpLoginController.cs" />
     <Compile Include="Controllers\API-Testing-BackEnd\APIResCollReqController.cs" />
     <Compile Include="Controllers\API-Testing-BackEnd\APIResLoginController.cs" />
+    <Compile Include="Controllers\DashboardController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -196,6 +197,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="packages.config" />
+    <Content Include="Views\Dashboard\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BLL\BLL.csproj">
