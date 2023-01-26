@@ -98,7 +98,7 @@ C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\obj\Debug\ZeroHuger.c
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\obj\Debug\ZeroHuger.csproj.CopyComplete
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\obj\Debug\ZeroHuger.dll
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\obj\Debug\ZeroHuger.pdb
-C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\EntityFramework.xml
+C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\EntityFramework.dll
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\ZeroHuger.dll.config
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\ZeroHuger.dll
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\ZeroHuger.pdb
@@ -155,7 +155,6 @@ C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\Antlr3.Runtime
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\AutoMapper.dll
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\BLL.dll
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\DAL.dll
-C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\EntityFramework.dll
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\EntityFramework.SqlServer.dll
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\Microsoft.Web.Infrastructure.dll
@@ -178,6 +177,7 @@ C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\BLL.dll.config
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\DAL.pdb
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\DAL.dll.config
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\AutoMapper.xml
+C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\EntityFramework.xml
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\EntityFramework.SqlServer.xml
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\System.Web.Http.Cors.xml
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger_CF\ZeroHuger\bin\System.Web.Helpers.xml
