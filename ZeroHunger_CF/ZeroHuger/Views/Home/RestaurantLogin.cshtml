@@ -1,0 +1,50 @@
+﻿@model BLL.DTOs.Restaurant_loginDTO
+@{
+    ViewBag.Title = "RestaurantLogin";
+}
+
+<form action="" method="POST" enctype="multipart/form-data">
+
+    <h2>Restaurant Login</h2>
+    <table class="container">
+
+        <tr>
+            <td>
+                <label for="Restaurant ID">
+                    <input type="number" name="res_id" id="res_id" placeholder="ID" /><br>
+                </label>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <label for="Restaurant Password">
+                    <input type="password" name="res_pass" id="res_pass" placeholder="Password" /><br>
+                </label>
+            </td>
+            <td>
+                <span>
+                    @if (TempData["msg"] != null)
+                    {
+                        <span class="alert alert-danger">@TempData["msg"]</span>
+                    }
+                </span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" name="submit" value="Login">
+            </td>
+        </tr>
+    </table>
+</form>
+
+<div>
+    @Html.ActionLink("Back to List", "RestaurantLogin")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

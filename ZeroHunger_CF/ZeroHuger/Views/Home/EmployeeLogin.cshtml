@@ -1,0 +1,48 @@
+﻿@model BLL.DTOs.Employee_loginDTO
+
+@{
+    ViewBag.Title = "EmployeeLogin";
+}
+
+<form action="" method="POST" enctype="multipart/form-data">
+
+    <h2>Employee Login</h2>
+    <table class="container">
+
+        <tr>
+            <td>
+                <label for="Employee ID">
+                    
+                    <input type="number" name="emp_id" id="emp_id" placeholder="ID" /><br>
+                </label>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <label for="Employee Password">
+                    <input type="password" name="emp_pass" id="emp_pass" placeholder="Password" /><br>
+                </label>
+            </td>
+            <td>
+                <span>
+                    @if (TempData["msg"] != null)
+                    {
+                        <span class="alert alert-danger">@TempData["msg"]</span>
+                    }
+                </span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" name="submit" value="Login">
+            </td>
+        </tr>
+    </table>
+</form>
+
+<div>
+    @Html.ActionLink("Back to List", "EmployeeLogin")
+</div>
