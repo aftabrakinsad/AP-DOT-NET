@@ -1,0 +1,42 @@
+﻿@model ZeroHunger.Database.Restrurant
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Restrurant</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.storage_time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.storage_time)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Food.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Food.Type)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.res_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
