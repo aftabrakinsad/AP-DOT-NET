@@ -1,0 +1,68 @@
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\BLL\bin\Debug\BLL.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\BLL\bin\Debug\BLL.pdb
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\BLL\obj\Debug\BLL.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\BLL\obj\Debug\BLL.pdb
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\BLL\bin\Debug\DAL.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\BLL\bin\Debug\EntityFramework.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\BLL\bin\Debug\DAL.pdb
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\BLL\bin\Debug\DAL.dll.config
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\BLL\bin\Debug\EntityFramework.xml
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\Project\Health_Care-_360-_Back_End\BLL\bin\Debug\BLL.dll
+E:\Project\Health_Care-_360-_Back_End\BLL\bin\Debug\BLL.pdb
+E:\Project\Health_Care-_360-_Back_End\BLL\bin\Debug\DAL.dll
+E:\Project\Health_Care-_360-_Back_End\BLL\bin\Debug\EntityFramework.dll
+E:\Project\Health_Care-_360-_Back_End\BLL\bin\Debug\DAL.pdb
+E:\Project\Health_Care-_360-_Back_End\BLL\bin\Debug\DAL.dll.config
+E:\Project\Health_Care-_360-_Back_End\BLL\bin\Debug\EntityFramework.xml
+E:\Project\Health_Care-_360-_Back_End\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\Project\Health_Care-_360-_Back_End\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Project\Health_Care-_360-_Back_End\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\Project\Health_Care-_360-_Back_End\BLL\obj\Debug\BLL.dll
+E:\Project\Health_Care-_360-_Back_End\BLL\obj\Debug\BLL.pdb
+E:\Project\Health_Care-_360-_Back_End\BLL\bin\Debug\AutoMapper.dll
+E:\Project\Health_Care-_360-_Back_End\BLL\bin\Debug\AutoMapper.xml
+E:\Project Backup\Health CARE 360\BLL\bin\Debug\BLL.dll
+E:\Project Backup\Health CARE 360\BLL\bin\Debug\BLL.pdb
+E:\Project Backup\Health CARE 360\BLL\bin\Debug\AutoMapper.dll
+E:\Project Backup\Health CARE 360\BLL\bin\Debug\DAL.dll
+E:\Project Backup\Health CARE 360\BLL\bin\Debug\EntityFramework.dll
+E:\Project Backup\Health CARE 360\BLL\bin\Debug\DAL.pdb
+E:\Project Backup\Health CARE 360\BLL\bin\Debug\DAL.dll.config
+E:\Project Backup\Health CARE 360\BLL\bin\Debug\AutoMapper.xml
+E:\Project Backup\Health CARE 360\BLL\bin\Debug\EntityFramework.xml
+E:\Project Backup\Health CARE 360\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\Project Backup\Health CARE 360\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Project Backup\Health CARE 360\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\Project Backup\Health CARE 360\BLL\obj\Debug\BLL.dll
+E:\Project Backup\Health CARE 360\BLL\obj\Debug\BLL.pdb
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\BLL\obj\Debug\BLL.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\BLL\obj\Debug\BLL.pdb
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\BLL\bin\Debug\BLL.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\BLL\bin\Debug\BLL.pdb
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\BLL\bin\Debug\AutoMapper.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\BLL\bin\Debug\DAL.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\BLL\bin\Debug\EntityFramework.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\BLL\bin\Debug\DAL.pdb
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\BLL\bin\Debug\DAL.dll.config
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\BLL\bin\Debug\AutoMapper.xml
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\BLL\bin\Debug\EntityFramework.xml
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\BLL\bin\Debug\BLL.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\BLL\bin\Debug\BLL.pdb
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\BLL\bin\Debug\AutoMapper.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\BLL\bin\Debug\DAL.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\BLL\bin\Debug\DAL.pdb
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\BLL\bin\Debug\DAL.dll.config
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\BLL\bin\Debug\AutoMapper.xml
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\BLL\obj\Debug\BLL.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\BLL\obj\Debug\BLL.pdb

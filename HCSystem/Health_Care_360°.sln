@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Health_Care_360°", "Health_Care_360°\Health_Care_360°.csproj", "{0BD829B3-96A3-4797-93D0-21D9A31C2C7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{21926AC4-AA4C-4FE1-BF67-956295AC3FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{792031B9-AB31-4270-A1A3-CBD6C326672D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BD829B3-96A3-4797-93D0-21D9A31C2C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD829B3-96A3-4797-93D0-21D9A31C2C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD829B3-96A3-4797-93D0-21D9A31C2C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD829B3-96A3-4797-93D0-21D9A31C2C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21926AC4-AA4C-4FE1-BF67-956295AC3FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21926AC4-AA4C-4FE1-BF67-956295AC3FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21926AC4-AA4C-4FE1-BF67-956295AC3FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21926AC4-AA4C-4FE1-BF67-956295AC3FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{792031B9-AB31-4270-A1A3-CBD6C326672D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{792031B9-AB31-4270-A1A3-CBD6C326672D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{792031B9-AB31-4270-A1A3-CBD6C326672D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{792031B9-AB31-4270-A1A3-CBD6C326672D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5D5073E-C368-4A57-9022-078728E43FC2}
+	EndGlobalSection
+EndGlobal

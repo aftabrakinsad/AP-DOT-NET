@@ -1,0 +1,393 @@
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\Health_Care_360°.dll.config
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\Health_Care_360°.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\Health_Care_360°.pdb
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\csc.exe
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\csc.exe.config
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\csc.rsp
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\csi.exe
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\csi.exe.config
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\csi.rsp
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.AppContext.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Collections.Immutable.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Console.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Globalization.Calendars.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.IO.Compression.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.IO.FileSystem.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Net.Http.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Net.Sockets.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Reflection.Metadata.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.ValueTuple.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Xml.XPath.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\vbc.exe
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\vbc.exe.config
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\vbc.rsp
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\VBCSCompiler.exe
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\roslyn\VBCSCompiler.exe.config
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\Newtonsoft.Json.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\System.Net.Http.Formatting.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\System.Web.Http.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\System.Web.Http.WebHost.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\Newtonsoft.Json.xml
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\System.Net.Http.Formatting.xml
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\System.Web.Http.xml
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\System.Web.Http.WebHost.xml
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\obj\Debug\Health_Care_360°.csproj.AssemblyReference.cache
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\obj\Debug\Health_Care_360°.csproj.CoreCompileInputs.cache
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\obj\Debug\Health_Care_360°.csproj.CopyComplete
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\obj\Debug\Health_Care_360°.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\obj\Debug\Health_Care_360°.pdb
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\BLL.dll
+E:\Advanced Programming With .Net\Final\Final Project Here\Projects\Health_Care_360°\Health_Care_360°\bin\BLL.pdb
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\Health_Care_360°.dll.config
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\Health_Care_360°.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\Health_Care_360°.pdb
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\csc.exe
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\csc.exe.config
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\csc.rsp
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\csi.exe
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\csi.exe.config
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\csi.rsp
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.AppContext.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Collections.Immutable.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Console.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Globalization.Calendars.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.IO.Compression.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.IO.FileSystem.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Net.Http.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Net.Sockets.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Reflection.Metadata.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.ValueTuple.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Xml.XPath.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\vbc.exe
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\vbc.exe.config
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\vbc.rsp
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\VBCSCompiler.exe
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\VBCSCompiler.exe.config
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\BLL.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\Newtonsoft.Json.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Net.Http.Formatting.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Web.Http.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Web.Http.WebHost.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\BLL.pdb
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\Newtonsoft.Json.xml
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Net.Http.Formatting.xml
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Web.Http.xml
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Web.Http.WebHost.xml
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\obj\Debug\Health_Care_360°.csproj.AssemblyReference.cache
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\obj\Debug\Health_Care_360°.csproj.CoreCompileInputs.cache
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\obj\Debug\Health_Care_360°.csproj.CopyComplete
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\obj\Debug\Health_Care_360°.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\obj\Debug\Health_Care_360°.pdb
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Web.Cors.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Web.Http.Cors.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\AutoMapper.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\DAL.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\EntityFramework.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Web.Http.Cors.xml
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\AutoMapper.xml
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\DAL.pdb
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\DAL.dll.config
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\EntityFramework.xml
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\EntityFramework.SqlServer.dll
+E:\Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\EntityFramework.SqlServer.xml
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\Health_Care_360°.dll.config
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\Health_Care_360°.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\Health_Care_360°.pdb
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\csc.exe
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\csc.exe.config
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\csc.rsp
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\csi.exe
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\csi.exe.config
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\csi.rsp
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.AppContext.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Collections.Immutable.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Console.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Globalization.Calendars.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.IO.Compression.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.IO.FileSystem.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Net.Http.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Net.Sockets.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Reflection.Metadata.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.ValueTuple.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Xml.XPath.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\vbc.exe
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\vbc.exe.config
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\vbc.rsp
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\VBCSCompiler.exe
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\roslyn\VBCSCompiler.exe.config
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\BLL.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\EntityFramework.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\EntityFramework.SqlServer.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\Newtonsoft.Json.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\System.Net.Http.Formatting.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\System.Web.Cors.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\System.Web.Http.Cors.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\System.Web.Http.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\System.Web.Http.WebHost.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\AutoMapper.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\DAL.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\BLL.pdb
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\EntityFramework.xml
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\EntityFramework.SqlServer.xml
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\System.Web.Http.Cors.xml
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\Newtonsoft.Json.xml
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\System.Net.Http.Formatting.xml
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\System.Web.Http.xml
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\System.Web.Http.WebHost.xml
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\AutoMapper.xml
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\DAL.pdb
+E:\Project Backup\Health CARE 360\Health_Care_360°\bin\DAL.dll.config
+E:\Project Backup\Health CARE 360\Health_Care_360°\obj\Debug\Health_Care_360°.csproj.AssemblyReference.cache
+E:\Project Backup\Health CARE 360\Health_Care_360°\obj\Debug\Health_Care_360°.csproj.CoreCompileInputs.cache
+E:\Project Backup\Health CARE 360\Health_Care_360°\obj\Debug\Health_Care_360°.csproj.CopyComplete
+E:\Project Backup\Health CARE 360\Health_Care_360°\obj\Debug\Health_Care_360°.dll
+E:\Project Backup\Health CARE 360\Health_Care_360°\obj\Debug\Health_Care_360°.pdb
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\Health_Care_360°.dll.config
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\Health_Care_360°.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\Health_Care_360°.pdb
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\csc.exe
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\csc.exe.config
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\csc.rsp
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\csi.exe
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\csi.exe.config
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\csi.rsp
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.AppContext.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Collections.Immutable.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Console.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Globalization.Calendars.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.IO.Compression.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.IO.FileSystem.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Net.Http.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Net.Sockets.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Reflection.Metadata.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.ValueTuple.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Xml.XPath.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\vbc.exe
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\vbc.exe.config
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\vbc.rsp
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\VBCSCompiler.exe
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\roslyn\VBCSCompiler.exe.config
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\BLL.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\EntityFramework.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\EntityFramework.SqlServer.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\Newtonsoft.Json.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Net.Http.Formatting.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Web.Cors.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Web.Http.Cors.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Web.Http.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Web.Http.WebHost.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\AutoMapper.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\DAL.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\BLL.pdb
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\EntityFramework.xml
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\EntityFramework.SqlServer.xml
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Web.Http.Cors.xml
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\Newtonsoft.Json.xml
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Net.Http.Formatting.xml
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Web.Http.xml
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\System.Web.Http.WebHost.xml
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\AutoMapper.xml
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\DAL.pdb
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\bin\DAL.dll.config
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\obj\Debug\Health_Care_360°.csproj.AssemblyReference.cache
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\obj\Debug\Health_Care_360°.csproj.CoreCompileInputs.cache
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\obj\Debug\Health_Care_360°.csproj.CopyComplete
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\obj\Debug\Health_Care_360°.dll
+E:\Advanced Programming With .Net\Final\Health_Care_360_Final_Project\Health_Care-_360-_Back_End\Health_Care_360°\obj\Debug\Health_Care_360°.pdb
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\Health_Care_360°.dll.config
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\Health_Care_360°.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\Health_Care_360°.pdb
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\csc.exe
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\csc.exe.config
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\csc.rsp
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\csi.exe
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\csi.exe.config
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\csi.rsp
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.AppContext.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Console.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Net.Http.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Net.Sockets.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\vbc.exe
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\vbc.exe.config
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\vbc.rsp
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\BLL.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\EntityFramework.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\Newtonsoft.Json.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\System.Net.Http.Formatting.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\System.Web.Cors.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\System.Web.Http.Cors.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\System.Web.Http.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\System.Web.Http.WebHost.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\AutoMapper.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\DAL.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\BLL.pdb
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\EntityFramework.xml
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\System.Web.Http.Cors.xml
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\Newtonsoft.Json.xml
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\System.Net.Http.Formatting.xml
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\System.Web.Http.xml
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\System.Web.Http.WebHost.xml
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\AutoMapper.xml
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\DAL.pdb
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\bin\DAL.dll.config
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\obj\Debug\Health_Care_360°.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\obj\Debug\Health_Care_360°.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\obj\Debug\Health_Care_360°.csproj.CopyComplete
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\obj\Debug\Health_Care_360°.dll
+C:\Users\user\source\repos\Asp.Net-Project-master\Asp.Net-Project-master\Health_Care_360°\obj\Debug\Health_Care_360°.pdb
