@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCareSystem", "HealthCareSystem\HealthCareSystem.csproj", "{7CB5E0A6-5885-4146-9426-0DB9837AE24F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{2F0427B6-245E-4A28-8A65-304E80FE5C65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{5A853F11-BA64-4604-B813-451135833F1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CB5E0A6-5885-4146-9426-0DB9837AE24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB5E0A6-5885-4146-9426-0DB9837AE24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB5E0A6-5885-4146-9426-0DB9837AE24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB5E0A6-5885-4146-9426-0DB9837AE24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0427B6-245E-4A28-8A65-304E80FE5C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0427B6-245E-4A28-8A65-304E80FE5C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0427B6-245E-4A28-8A65-304E80FE5C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0427B6-245E-4A28-8A65-304E80FE5C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A853F11-BA64-4604-B813-451135833F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A853F11-BA64-4604-B813-451135833F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A853F11-BA64-4604-B813-451135833F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A853F11-BA64-4604-B813-451135833F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E23648EF-B805-45F2-B3C2-B85D473F8414}
+	EndGlobalSection
+EndGlobal
