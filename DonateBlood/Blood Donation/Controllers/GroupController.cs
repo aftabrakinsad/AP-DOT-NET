@@ -24,7 +24,7 @@ namespace Blood_Donation.Controllers
                 if (ModelState.IsValid)
                 {
                     var data = GroupService.Add(g);
-                    return Request.CreateResponse(HttpStatusCode.OK, data);
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Inserted: ", data });
                 }
                 return Request.CreateResponse(HttpStatusCode.NoContent);
             }
@@ -41,7 +41,7 @@ namespace Blood_Donation.Controllers
             try
             {
                 var data = GroupService.Get();
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Blood group lists: ", data });
             }
             catch (Exception ex)
             {
@@ -56,7 +56,7 @@ namespace Blood_Donation.Controllers
             try
             {
                 var data = GroupService.Get(id);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Result: ", data });
             }
             catch (Exception ex)
             {
@@ -71,7 +71,7 @@ namespace Blood_Donation.Controllers
             try
             {
                 var data = GroupService.Delete(id);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Selected blood group removed: ", data });
             }
             catch (Exception ex)
             {
@@ -86,7 +86,7 @@ namespace Blood_Donation.Controllers
             try
             {
                 var data = GroupService.Update(groupDTO);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Selected blood group updated: ", data });
             }
             catch (Exception ex)
             {
@@ -118,7 +118,7 @@ namespace Blood_Donation.Controllers
                 if (ModelState.IsValid)
                 {
                     var data = DonorService.Add(d);
-                    return Request.CreateResponse(HttpStatusCode.OK, data);
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Inserted: ", data });
                 }
                 return Request.CreateResponse(HttpStatusCode.NoContent);
             }
@@ -135,7 +135,7 @@ namespace Blood_Donation.Controllers
             try
             {
                 var data = DonorService.Get();
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Blood donor list with group: ", data });
             }
             catch (Exception ex)
             {
