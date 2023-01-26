@@ -24,7 +24,7 @@ namespace ZeroHuger.Controllers.API_Testing
                 if (ModelState.IsValid)
                 {
                     var data = Res_Coll_req_Service.Add(rescollreqacc);
-                    return Request.CreateResponse(HttpStatusCode.OK, data);
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Inserted: ", data });
                 }
                 return Request.CreateResponse(HttpStatusCode.NoContent);
             }
@@ -41,7 +41,7 @@ namespace ZeroHuger.Controllers.API_Testing
             try
             {
                 var data = Res_Coll_req_Service.Get();
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Collection request by restaurant list: ", data });
             }
             catch (Exception ex)
             {
@@ -71,7 +71,7 @@ namespace ZeroHuger.Controllers.API_Testing
             try
             {
                 var data = Res_Coll_req_Service.Delete(id);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Collection request by restaurant removed: ", data });
             }
             catch (Exception ex)
             {
@@ -86,7 +86,7 @@ namespace ZeroHuger.Controllers.API_Testing
             try
             {
                 var data = Res_Coll_req_Service.Update(recollreqacc);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Collection request by restaurant updated: ", data });
             }
             catch (Exception ex)
             {
@@ -102,7 +102,7 @@ namespace ZeroHuger.Controllers.API_Testing
             {
                 var data3 = Res_Coll_req_Service.Get().Count;
                 List<int> numberList = new List<int>() { data3 };
-                return Request.CreateResponse(HttpStatusCode.OK, numberList);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Total collection request by restaurant: ", numberList });
             }
             catch (Exception ex)
             {

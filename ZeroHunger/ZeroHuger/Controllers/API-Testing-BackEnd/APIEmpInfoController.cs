@@ -1,4 +1,5 @@
-﻿using BLL.DTOs;
+﻿using AutoMapper;
+using BLL.DTOs;
 using BLL.Services;
 using System;
 using System.Collections.Generic;
@@ -24,7 +25,7 @@ namespace ZeroHuger.Controllers.API_Testing
                 if (ModelState.IsValid)
                 {
                     var data = Emp_info_Service.Add(empinfo);
-                    return Request.CreateResponse(HttpStatusCode.OK, data);
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Inserted: ", data = empinfo });
                 }
                 return Request.CreateResponse(HttpStatusCode.NoContent);
             }
@@ -41,7 +42,7 @@ namespace ZeroHuger.Controllers.API_Testing
             try
             {
                 var data = Emp_info_Service.Get();
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Employee information List: ", data });
             }
             catch (Exception ex)
             {
@@ -71,7 +72,7 @@ namespace ZeroHuger.Controllers.API_Testing
             try
             {
                 var data = Emp_info_Service.Delete(id);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Selected employee is removed: ", data });
             }
             catch (Exception ex)
             {
@@ -86,7 +87,7 @@ namespace ZeroHuger.Controllers.API_Testing
             try
             {
                 var data = Emp_info_Service.Update(empinfo);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Employee information is updated: ", data });
             }
             catch (Exception ex)
             {
@@ -102,7 +103,7 @@ namespace ZeroHuger.Controllers.API_Testing
             {
                 var data3 = Emp_info_Service.Get().Count;
                 List<int> numberList = new List<int>() { data3 };
-                return Request.CreateResponse(HttpStatusCode.OK, numberList);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Total employee count: ", numberList });
             }
             catch (Exception ex)
             {

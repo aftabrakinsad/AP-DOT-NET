@@ -24,7 +24,7 @@ namespace ZeroHuger.Controllers.API_Testing
                 if (ModelState.IsValid)
                 {
                     var data = Coll_req_acc_Service.Add(collreqacc);
-                    return Request.CreateResponse(HttpStatusCode.OK, data);
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Inserted: ", data });
                 }
                 return Request.CreateResponse(HttpStatusCode.NoContent);
             }
@@ -41,7 +41,7 @@ namespace ZeroHuger.Controllers.API_Testing
             try
             {
                 var data = Coll_req_acc_Service.Get();
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Accepted collection request list: ", data });
             }
             catch (Exception ex)
             {
@@ -71,7 +71,7 @@ namespace ZeroHuger.Controllers.API_Testing
             try
             {
                 var data = Coll_req_acc_Service.Delete(id);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Accepted collection request removed: ", data });
             }
             catch (Exception ex)
             {
@@ -86,7 +86,7 @@ namespace ZeroHuger.Controllers.API_Testing
             try
             {
                 var data = Coll_req_acc_Service.Update(collreqacc);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Accepted collection request updated: ", data });
             }
             catch (Exception ex)
             {
@@ -102,7 +102,7 @@ namespace ZeroHuger.Controllers.API_Testing
             {
                 var data3 = Coll_req_acc_Service.Get().Count;
                 List<int> numberList = new List<int>() { data3 };
-                return Request.CreateResponse(HttpStatusCode.OK, numberList);
+                return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Total Accepted Request: ", data = numberList });
             }
             catch (Exception ex)
             {
