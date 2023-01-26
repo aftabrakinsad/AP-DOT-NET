@@ -1,3 +1,9 @@
+C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Net.Http.dll
+C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\HealthCareSystem.dll.config
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\HealthCareSystem.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\HealthCareSystem.pdb
@@ -20,7 +26,6 @@ C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\Micro
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.AppContext.dll
-C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Collections.Immutable.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Console.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
@@ -30,15 +35,11 @@ C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\Syste
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.IO.Compression.ZipFile.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.IO.FileSystem.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Net.Http.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Net.Sockets.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Reflection.Metadata.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Threading.Tasks.Extensions.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.ValueTuple.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\System.Xml.ReaderWriter.dll
@@ -49,7 +50,6 @@ C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\vbc.e
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\vbc.exe.config
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\vbc.rsp
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\VBCSCompiler.exe
-C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\Antlr3.Runtime.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\AutoMapper.dll
 C:\Users\user\source\repos\AP-DOT-NET\HCSystem\HealthCareSystem\bin\BLL.dll
