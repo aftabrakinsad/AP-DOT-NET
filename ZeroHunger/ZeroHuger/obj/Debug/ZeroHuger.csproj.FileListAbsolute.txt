@@ -53,6 +53,7 @@ C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\roslyn\VBCSCompil
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\Antlr3.Runtime.dll
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\AutoMapper.dll
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\BLL.dll
+C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\DAL.dll
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\EntityFramework.dll
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\EntityFramework.SqlServer.dll
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
@@ -71,9 +72,10 @@ C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\System.Web.WebPag
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\System.Web.WebPages.dll
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\System.Web.WebPages.Razor.dll
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\WebGrease.dll
-C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\DAL.dll
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\BLL.pdb
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\BLL.dll.config
+C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\DAL.pdb
+C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\DAL.dll.config
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\AutoMapper.xml
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\EntityFramework.xml
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\EntityFramework.SqlServer.xml
@@ -91,8 +93,6 @@ C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\System.Net.Http.F
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\System.Web.Http.xml
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\System.Web.Http.WebHost.xml
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\DAL.pdb
-C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\bin\DAL.dll.config
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\obj\Debug\ZeroHuger.csproj.AssemblyReference.cache
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\obj\Debug\ZeroHuger.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\AP-DOT-NET\ZeroHunger\ZeroHuger\obj\Debug\ZeroHuger.csproj.CopyComplete
