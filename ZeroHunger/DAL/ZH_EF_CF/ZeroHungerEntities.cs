@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.ZH_EF_CF
 {
-    internal class ZeroHungerEntities : DbContext
+    public class ZeroHungerEntities : DbContext
     {
         public DbSet<Restaurant_login> Restaurant_Logins { get; set; }
         public DbSet<Company_login> Company_Logins { get; set; }
