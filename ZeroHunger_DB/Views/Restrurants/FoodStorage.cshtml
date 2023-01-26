@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ZeroHunger.Database.Restrurant>
+
+@{
+    ViewBag.Title = "FoodStorage";
+}
+
+<h2>FoodStorage</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.storage_time)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Food.Type)
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.storage_time)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Food.Type)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.res_id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.res_id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.res_id })
+            </td>
+        </tr>
+    }
+
+</table>
